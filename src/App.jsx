@@ -1,13 +1,13 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Homepage from "./pages/Homepage";
 import Projects from "./pages/Projects";
-import Contact from "./pages/Contact";
-import Layout from "./componenets/layout/Layout";
+import Layout from "./componenets/common/layout/Layout";
+import About from "./pages/About";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Layout />, // Use Layout component here
+    element: <Layout />,
     children: [
       {
         path: "/",
@@ -18,8 +18,8 @@ const router = createBrowserRouter([
         element: <Projects />,
       },
       {
-        path: "/contact",
-        element: <Contact />,
+        path: "/about",
+        element: <About />,
       },
     ],
   },

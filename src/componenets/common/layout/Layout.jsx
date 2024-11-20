@@ -6,8 +6,7 @@ export default function Layout() {
     <div>
       <Navbar />
       <main>
-        <Outlet />{" "}
-        {/* Content for the current route */}
+        <Outlet /> {/* Content for the current route */}
       </main>
     </div>
   );
