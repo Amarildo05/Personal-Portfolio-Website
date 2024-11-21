@@ -1,9 +1,9 @@
 import ProjectsGrid from "../../projects/projectsGrid/ProjectsGrid";
-import "./FeaturedProjects.css";
+import "../../../PagesLayout.css";
 
 export default function FeaturedProjects() {
   return (
-    <section className="featured">
+    <section className="page-layout">
       <h2>Featured Projects</h2>
       <ProjectsGrid />
     </section>

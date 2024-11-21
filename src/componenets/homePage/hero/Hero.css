@@ -5,7 +5,7 @@
     var(--color-grey-900),
     var(--color-grey-800)
   );
-  padding: var(--size-8) 0;
+  padding: var(--size-1) 0;
 }
 
 .image {
@@ -37,4 +37,5 @@
   width: 90%;
   max-width: 60rem;
   margin: auto;
+  padding-bottom: var(--size-4);
 }

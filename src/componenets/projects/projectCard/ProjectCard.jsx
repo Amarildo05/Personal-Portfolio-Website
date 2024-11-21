@@ -9,8 +9,6 @@ export default function ProjectCard() {
             "https://thumbs.dreamstime.com/z/young-conceptual-image-large-stone-shape-human-brain-conceptual-image-large-stone-shape-110748113.jpg?ct=jpeg"
           }
           alt="image"
-          width={400}
-          height={300}
         />
       </div>
       <div className="content">
