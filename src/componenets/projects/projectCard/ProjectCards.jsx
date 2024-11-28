@@ -1,7 +1,7 @@
 import "./ProjectCards.css";
-import projects from "../../../projectsData";
+import PropTypes from "prop-types";
 
-export default function ProjectCards() {
+export default function ProjectCards({ projects }) {
   return (
     <ul className="project-cards-grid">
       {projects.map((project) => (
@@ -18,3 +18,16 @@ export default function ProjectCards() {
     </ul>
   );
 }
+
+// Prop validation for 'projects'
+ProjectCards.propTypes = {
+  projects: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.number.isRequired,
+      title: PropTypes.string.isRequired,
+      description: PropTypes.string.isRequired,
+      photo: PropTypes.string.isRequired,
+      isFeatured: PropTypes.bool.isRequired,
+    })
+  ).isRequired,
+};

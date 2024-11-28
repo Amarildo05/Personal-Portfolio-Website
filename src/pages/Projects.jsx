@@ -1,11 +1,12 @@
 import ProjectCards from "../componenets/projects/projectCard/ProjectCards";
-import '../PagesLayout.css';
+import projects from "../projectsData";
+import "../PagesLayout.css";
 
 export default function Projects() {
   return (
     <div className="page-layout">
       <h2>Projects</h2>
-      <ProjectCards />
+      <ProjectCards projects={projects} />
     </div>
   );
 }
