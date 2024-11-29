@@ -20,15 +20,15 @@
   margin: 0 var(--size-4);
 }
 
-.header a {
-  color: var(--color-grey-100);
+.header .nav-link {
+  color: var(--color-grey-200);
   font-size: var(--size-4);
 }
 
-.header a:hover,
-.header a:active,
-.header a.active {
-  color: var(--color-grey-200);
+.header .nav-link:hover,
+.header .nav-link:active,
+.header .nav-link.active {
+  color: var(--color-grey-100);
 }
 
 @media (min-width: 768px) {
@@ -36,7 +36,7 @@
     gap: 0.5rem;
   }
 
-  .header a {
+  .header .nav-link {
     font-size: var(--size-5);
   }
 }

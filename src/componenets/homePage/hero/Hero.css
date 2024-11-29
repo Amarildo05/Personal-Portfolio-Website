@@ -24,7 +24,7 @@
   height: 100%;
 }
 
-.hero h1 { 
+.hero h1 {
   font-size: var(--size-16);
   margin: var(--size-4) 0;
   color: var(--color-grey-300);
