@@ -5,7 +5,7 @@ export default function Navbar() {
   return (
     <header className="header">
       <NavLink to="/" className="nav-link">
-        <img src="/Logo.png" width={260} />
+        <img src="/Logo.png" width={180} />
       </NavLink>
       <nav>
         <ul>

@@ -1,6 +1,6 @@
 import projects from "../../../projectsData";
-import "../../../PagesLayout.css";
 import ProjectCards from "../../projects/projectCard/ProjectCards";
+import "../../../PagesLayout.css";
 
 export default function FeaturedProjects() {
   // Filter the featured projects
