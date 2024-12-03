@@ -13,12 +13,6 @@
   color: var(--color-grey-800);
 }
 
-/* .project-content .image {
-  margin: var(--size-4) auto;
-  width: 100%;
-  max-width: 600px;
-} */
-
 .project-header {
   padding-bottom: var(--size-8);
   border-bottom: 8px solid var(--color-grey-600);

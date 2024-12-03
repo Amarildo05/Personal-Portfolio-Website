@@ -8,6 +8,7 @@ export default function ProjectDetails({ project }) {
         <h1>{project.title}</h1>
         <img src={project.photo} alt={project.title} width={200} height={150} />
       </header>
+      <div>{project.description}</div>
     </article>
   );
 }
@@ -17,6 +18,7 @@ ProjectDetails.propTypes = {
   project: PropTypes.shape({
     title: PropTypes.string.isRequired,
     description: PropTypes.string.isRequired,
+    detailedDescription: PropTypes.string.isRequired,
     photo: PropTypes.string.isRequired,
     isFeatured: PropTypes.bool, // Optional field
     id: PropTypes.number.isRequired, // Assuming 'id' is always required
