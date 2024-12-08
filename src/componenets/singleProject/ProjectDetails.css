@@ -10,7 +10,8 @@
 }
 
 .project-content p {
-  color: var(--color-grey-800);
+  margin-top: var(--size-2);
+  text-align: center;
 }
 
 .project-header {
