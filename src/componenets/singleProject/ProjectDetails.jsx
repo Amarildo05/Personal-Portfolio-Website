@@ -2,6 +2,7 @@ import PropTypes from "prop-types";
 import "./ProjectDetails.css";
 import Carousel from "../common/carousel/Carousel";
 import { Link } from "react-router-dom";
+import Technologies from "../common/technologies/Technologies";
 
 export default function ProjectDetails({ project }) {
   // Added some line breaks to the "detailedDescription"
@@ -16,16 +17,21 @@ export default function ProjectDetails({ project }) {
         <h1>{project.title}</h1>
         <img src={project.photo} alt={project.title} width={200} height={150} />
       </header>
-      <div dangerouslySetInnerHTML={{ __html: replacedDetailedDescription }}></div>
+      <p dangerouslySetInnerHTML={{ __html: replacedDetailedDescription }}></p>
       <Carousel images={project.images} />
       <p className="links">
         Github Repository:{" "}
-        <Link to={project.gitHubRepo} target="_blank">{project.gitHubRepo}</Link>
+        <Link to={project.gitHubRepo} target="_blank">
+          {project.gitHubRepo}
+        </Link>
       </p>
       <p className="links">
         Deployment Link:{" "}
-        <Link to={project.deploymentLink} target="_blank">{project.deploymentLink}</Link>
+        <Link to={project.deploymentLink} target="_blank">
+          {project.deploymentLink}
+        </Link>
       </p>
+      <Technologies technologies={project.technologies} />
     </article>
   );
 }
@@ -42,5 +48,6 @@ ProjectDetails.propTypes = {
     images: PropTypes.arrayOf(PropTypes.string).isRequired,
     gitHubRepo: PropTypes.string.isRequired,
     deploymentLink: PropTypes.string.isRequired,
+    technologies: PropTypes.arrayOf(PropTypes.string).isRequired,
   }).isRequired,
 };

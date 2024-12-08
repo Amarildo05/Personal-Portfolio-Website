@@ -34,10 +34,10 @@ export default function Carousel({ images }) {
 
   return (
     <div className="glide">
-      <div className="glide__track" data-glide-el="track">
-        <ul className="glide__slides">
+      <div className="glide-track" data-glide-el="track">
+        <ul className="glide-slides">
           {images.map((image, index) => (
-            <li className="glide__slide" key={index}>
+            <li className="glide-slide" key={index}>
               <img src={image} alt={`slide-${index}`} />
             </li>
           ))}
@@ -45,12 +45,12 @@ export default function Carousel({ images }) {
       </div>
 
       {/*  Left Arrow  */}
-      <button className="glide__arrow glide__arrow--left" onClick={goPrev}>
+      <button className="glide-arrow glide-arrow-left" onClick={goPrev}>
         &#9664;
       </button>
 
       {/* Right Arrow */}
-      <button className="glide__arrow glide__arrow--right" onClick={goNext}>
+      <button className="glide-arrow glide-arrow-right" onClick={goNext}>
         &#9654;
       </button>
     </div>

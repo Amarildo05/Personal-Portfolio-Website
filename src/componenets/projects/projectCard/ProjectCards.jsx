@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import "./ProjectCards.css";
 import PropTypes from "prop-types";
+import Technologies from "../../common/technologies/Technologies";
 
 export default function ProjectCards({ projects }) {
   return (
@@ -14,6 +15,7 @@ export default function ProjectCards({ projects }) {
             <div className="content">
               <h3>{project.title}</h3>
               <p>{project.description}</p>
+              <Technologies technologies={project.technologies} />
             </div>
           </Link>
         </li>
@@ -31,6 +33,7 @@ ProjectCards.propTypes = {
       description: PropTypes.string.isRequired,
       photo: PropTypes.string.isRequired,
       isFeatured: PropTypes.bool.isRequired,
+      technologies: PropTypes.arrayOf(PropTypes.string).isRequired,
     })
   ).isRequired,
 };

@@ -1,0 +1,13 @@
+.tech-logos {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-top: var(--size-6);
+}
+
+.tech-logo {
+  width: 45px;
+  height: 45px;
+  object-fit: contain;
+}

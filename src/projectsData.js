@@ -21,7 +21,14 @@ const projects = [
       "/CinemaVerse/cinema-verse8.png",
     ],
     gitHubRepo: "https://github.com/Amarildo05/Personal-Portfolio-Website",
-    deploymentLink: "https://cinema-verse-movies.vercel.app/",
+    deploymentLink: "https://cinema-verse-movies.vercel.app",
+    technologies: [
+      "/Technologies/React-logo.svg",
+      "/Technologies/Vitejs-logo.svg",
+      "/Technologies/Typescript-logo.svg",
+      "/Technologies/Css-logo.svg",
+      "/Technologies/Ant-Design-logo.svg",
+    ],
   },
   {
     id: 2,
@@ -39,6 +46,12 @@ const projects = [
     ],
     gitHubRepo: "No Github Repository Yet",
     deploymentLink: "Not Deployed Yet",
+    technologies: [
+      "/Technologies/React-logo.svg",
+      "/Technologies/Vitejs-logo.svg",
+      "/Technologies/Javascript-logo.svg",
+      "/Technologies/Css-logo.svg",
+    ],
   },
   {
     id: 3,
@@ -57,41 +70,11 @@ const projects = [
     ],
     gitHubRepo: "No Github Repository Yet",
     deploymentLink: "Not Deployed Yet",
-  },
-  {
-    id: 4,
-    title: "Test 4",
-    description:
-      "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.",
-    photo:
-      "https://www.beautybycarissa.co.uk/wp-content/uploads/2020/07/11.jpg",
-    isFeatured: false,
-    detailedDescription:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    images: [
-      "https://media.istockphoto.com/id/816752606/photo/tv-test-card-or-test-pattern-generic.jpg?s=612x612&w=0&k=20&c=63Jcx_5bFnvBw9elRDLrLKjtDYXr70pKtUK0jXJ2_uY=",
-      "https://media.istockphoto.com/id/816752606/photo/tv-test-card-or-test-pattern-generic.jpg?s=612x612&w=0&k=20&c=63Jcx_5bFnvBw9elRDLrLKjtDYXr70pKtUK0jXJ2_uY=",
-      "https://media.istockphoto.com/id/816752606/photo/tv-test-card-or-test-pattern-generic.jpg?s=612x612&w=0&k=20&c=63Jcx_5bFnvBw9elRDLrLKjtDYXr70pKtUK0jXJ2_uY=",
+    technologies: [
+      "/Technologies/React-logo.svg",
+      "/Technologies/Javascript-logo.svg",
+      "/Technologies/Css-logo.svg",
     ],
-    gitHubRepo: "No Github Repository Yet",
-    deploymentLink: "Not Deployed Yet",
-  },
-  {
-    id: 5,
-    title: "Test 5",
-    description:
-      "Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.",
-    photo: "https://rainbowshopping.in/wp-content/uploads/2024/08/test.jpg",
-    isFeatured: false,
-    detailedDescription:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    images: [
-      "https://cdn.pixabay.com/photo/2014/06/03/19/38/road-sign-361513_960_720.jpg",
-      "https://cdn.pixabay.com/photo/2014/06/03/19/38/road-sign-361513_960_720.jpg",
-      "https://cdn.pixabay.com/photo/2014/06/03/19/38/road-sign-361513_960_720.jpg",
-    ],
-    gitHubRepo: "No Github Repository Yet",
-    deploymentLink: "Not Deployed Yet",
   },
 ];
 
