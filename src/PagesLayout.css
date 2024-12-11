@@ -1,7 +1,7 @@
 .page-layout {
   width: 90%;
   max-width: 80rem;
-  margin: var(--size-5) auto;
+  margin: var(--size-3) auto var(--size-12);
 }
 
 .page-layout h2 {

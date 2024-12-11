@@ -19,18 +19,19 @@ export default function ProjectDetails({ project }) {
       </header>
       <p dangerouslySetInnerHTML={{ __html: replacedDetailedDescription }}></p>
       <Carousel images={project.images} />
-      <p className="links">
-        Github Repository:{" "}
+      <p>
+      💻 Github Repository:{" "}
         <Link to={project.gitHubRepo} target="_blank">
           {project.gitHubRepo}
         </Link>
       </p>
-      <p className="links">
-        Deployment Link:{" "}
+      <p>
+      🔗 Deployment Link:{" "}
         <Link to={project.deploymentLink} target="_blank">
           {project.deploymentLink}
         </Link>
       </p>
+      <p className="technologies">{project.technologiesDescription}</p>
       <Technologies technologies={project.technologies} />
     </article>
   );
@@ -49,5 +50,6 @@ ProjectDetails.propTypes = {
     gitHubRepo: PropTypes.string.isRequired,
     deploymentLink: PropTypes.string.isRequired,
     technologies: PropTypes.arrayOf(PropTypes.string).isRequired,
+    technologiesDescription: PropTypes.string.isRequired,
   }).isRequired,
 };

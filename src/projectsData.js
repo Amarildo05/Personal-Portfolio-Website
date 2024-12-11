@@ -29,6 +29,8 @@ const projects = [
       "/Technologies/Css-logo.svg",
       "/Technologies/Ant-Design-logo.svg",
     ],
+    technologiesDescription:
+      "CinemaVerse is built using React and Vite for fast development, with TypeScript for type safety, as for the design, it is styled with CSS and enhanced with Ant Design components. For handling forms, i implemented Formik and used Yup for validation. The app fetches real-time movie data from the TMDB API, providing details like posters and ratings.",
   },
   {
     id: 2,
@@ -52,6 +54,7 @@ const projects = [
       "/Technologies/Javascript-logo.svg",
       "/Technologies/Css-logo.svg",
     ],
+    technologiesDescription: "",
   },
   {
     id: 3,
@@ -75,6 +78,7 @@ const projects = [
       "/Technologies/Javascript-logo.svg",
       "/Technologies/Css-logo.svg",
     ],
+    technologiesDescription: "",
   },
 ];
 

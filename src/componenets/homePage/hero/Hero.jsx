@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./Hero.css";
 
 export default function Hero() {
@@ -15,8 +16,12 @@ export default function Hero() {
       <p>
         A passionate Junior JavaScript Developer. I specialize in building
         interactive web applications using JavaScript, TypeScript, React, and
-        Next.js, and I&apos;m excited to continue growing in the world of programming.
+        Next.js, and I&apos;m excited to continue growing in the world of
+        programming.
       </p>
+      <Link to="/about">
+        <button className="hero-btn">Learn More 🔍</button>
+      </Link>
     </section>
   );
 }

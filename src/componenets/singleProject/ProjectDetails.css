@@ -40,6 +40,10 @@
   height: 120px;
 }
 
+.technologies {
+  padding-top: var(--size-4);
+}
+
 @media (min-width: 768px) {
   .project-header {
     margin: var(--size-8) 0;
