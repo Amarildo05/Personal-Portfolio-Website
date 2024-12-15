@@ -1,7 +1,9 @@
+import AboutMe from "../componenets/about/AboutMe";
+
 export default function About() {
   return (
     <div>
-      About
+      <AboutMe />
     </div>
   );
 }
