@@ -1,5 +1,6 @@
 import "./AboutMe.css";
 import Approach from "./Approach";
+import Contact from "./Contact";
 import Experience from "./Experience";
 import HeroAbout from "./HeroAbout";
 import Journey from "./Journey";
@@ -18,6 +19,7 @@ export default function AboutMe() {
         <Experience />
         <Journey />
         <Approach />
+        <Contact />
       </div>
     </section>
   );

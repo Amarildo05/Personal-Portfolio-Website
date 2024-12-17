@@ -7,7 +7,7 @@ export default function Technologies() {
         </span>{" "}
         Technologies & Tools
       </h2>
-      <p>I am proficient in the following technologies:</p>
+      <p>I am familiar with the following technologies:</p>
       <ul>
         <li>
           <strong>Frontend:</strong> HTML, CSS, JavaScript, TypeScript,
