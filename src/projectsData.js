@@ -34,27 +34,40 @@ const projects = [
   },
   {
     id: 2,
-    title: "Test 2",
+    title: "Landing Page Project",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    photo: "https://global-sensors.com/wp-content/uploads/2021/07/test.jpg",
-    isFeatured: false,
+      "This project involved creating a custom landing page designed for Google Ads campaigns. The landing page serves as an entry point, efficiently redirecting users to the client's main website, optimizing user engagement and conversion.",
+    photo: "/LandingPageProject/LandingPage2.png",
+    isFeatured: true,
     detailedDescription:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "This project involved creating a custom landing page designed specifically for Google Ads campaigns. The goal was to develop an engaging and user-friendly page that would capture the attention of visitors and redirect them to the client’s main website. The landing page was built to be fully responsive, ensuring a smooth experience across all devices, from smartphones to desktops.\n" +
+      "It was optimized for speed and performance to minimize load times and reduce bounce rates.\n" +
+      "With a clean, user-focused design and clear calls to action, the page provided a seamless transition for users, ultimately driving traffic and improving conversion rates for the client’s website.\n" +
+      "\n" +
+      "* Some of the project screenshots have been blurred for client security purposes.",
     images: [
-      "https://cdn.pixabay.com/photo/2014/06/03/19/38/board-361516_640.jpg",
-      "https://cdn.pixabay.com/photo/2014/06/03/19/38/board-361516_640.jpg",
-      "https://cdn.pixabay.com/photo/2014/06/03/19/38/board-361516_640.jpg",
+      "/LandingPageProject/Landing-Page-Project.png",
+      "/LandingPageProject/Landing-Page-Project2.png",
+      "/LandingPageProject/Landing-Page-Project3.png",
+      "/LandingPageProject/Landing-Page-Project4.png",
+      "/LandingPageProject/Landing-Page-Project5.png",
+      "/LandingPageProject/Landing-Page-Project6.png",
+      "/LandingPageProject/Landing-Page-Project7.png",
+      "/LandingPageProject/Landing-Page-Project8.png",
     ],
-    gitHubRepo: "No Github Repository Yet",
-    deploymentLink: "Not Deployed Yet",
+    gitHubRepo:
+      "This repository is private and only accessible to authorized users.",
+    deploymentLink:
+      "The project is currently being used by the client for Google Ads.",
     technologies: [
-      "/Technologies/React-logo.svg",
-      "/Technologies/Vitejs-logo.svg",
-      "/Technologies/Javascript-logo.svg",
+      "/Technologies/Html-5-logo.svg",
       "/Technologies/Css-logo.svg",
+      "/Technologies/Bootstrap-logo.svg",
+      "/Technologies/Javascript-logo.svg",
+      "/Technologies/Popper-logo.svg",
     ],
-    technologiesDescription: "",
+    technologiesDescription:
+      "This landing page was developed using HTML5, CSS, and Bootstrap to ensure fast performance and responsiveness. As the project required optimization for Google Ads, there was no need for a complex framework. Instead, i used Bootstrap components for a responsive design and enhanced it with custom styling through plain CSS. To address some issues with specific Bootstrap components, i implemented Popper.js for better functionality. I also incorporated a bit of JavaScript to handle some interactive elements on the page. For deployment, i gained new experience by using FileZilla to upload the files to the client's server. Despite a tight deadline of just a day and a half, i dedicated my effort to successfully completing the project on time.",
   },
   {
     id: 3,
@@ -63,7 +76,7 @@ const projects = [
       "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo",
     photo:
       "https://human-haus.my/cdn/shop/products/test_ac1db6fb-b298-4f86-b760-d357323412aa.png?v=1704316402",
-    isFeatured: true,
+    isFeatured: false,
     detailedDescription:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     images: [

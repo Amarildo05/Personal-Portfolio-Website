@@ -11,7 +11,7 @@ export default function Carousel({ images }) {
       type: "carousel",
       perView: 1,
       gap: 10,
-      autoplay: 3000,
+      autoplay: 4000,
     });
 
     glide.mount();
