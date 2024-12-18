@@ -39,7 +39,13 @@
   margin: var(--size-4) 0;
 }
 
-.about-content ul li {
+.about-content ol {
+  padding: 0;
+  margin: var(--size-4) 0 0 var(--size-6);
+}
+
+.about-content ul li,
+.about-content ol li {
   font-size: var(--size-5);
   margin-bottom: var(--size-4);
 }

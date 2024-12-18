@@ -19,7 +19,7 @@ export default function Technologies() {
         </li>
         <li>
           <strong>Tools & Libraries:</strong> Axios (API requests), Formik, Yup,
-          Node.js, Git, NPM
+          Node.js (basic knowledge), Git, NPM
         </li>
         <li>
           <strong>Version Control:</strong> Git, GitHub, GitLab
