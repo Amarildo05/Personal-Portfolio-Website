@@ -1,6 +1,6 @@
 export default function Contact() {
   return (
-    <div className="contact">
+    <div>
       {" "}
       <h2>
         <span role="img" aria-label="contact">

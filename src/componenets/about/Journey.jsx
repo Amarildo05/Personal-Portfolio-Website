@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Journey() {
   return (
     <div>
@@ -100,8 +102,12 @@ export default function Journey() {
         <li>
           <strong>Final Project</strong> <br />- The bootcamp culminated in a
           hands-on final project where I applied all the skills I had learned to
-          build a fully functional web application, showcasing my ability to
-          solve complex problems.
+          develop a fully functional web application, showcasing my ability to
+          solve complex problems. <br />- The project,{" "}
+          <Link to="/single-project/1">
+            CinemaVerse
+          </Link>
+          , can be explored further here.
         </li>
       </ol>
 

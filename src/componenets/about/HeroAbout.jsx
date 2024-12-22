@@ -3,10 +3,9 @@ export default function HeroAbout() {
     <div>
       <p>
         Hi, I&apos;m <strong>Amarildo Kola</strong>, a passionate Junior
-        JavaScript Developer. I specialize in building interactive web
-        applications using <strong>JavaScript</strong>,{" "}
-        <strong>TypeScript</strong>, <strong>React</strong>, and{" "}
-        <strong>Next.js</strong>.
+        JavaScript Developer. I focus on building interactive web applications
+        using <strong>JavaScript</strong>, <strong>TypeScript</strong>,{" "}
+        <strong>React</strong>, and <strong>Next.js</strong>.
       </p>
       <p>
         I&apos;m deeply committed to continuous learning and growth in the field
