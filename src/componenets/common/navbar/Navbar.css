@@ -22,7 +22,7 @@
 
 .header .nav-link {
   color: var(--color-grey-200);
-  font-size: var(--size-4);
+  font-size: var(--size-5);
 }
 
 .header .nav-link:hover,
@@ -31,12 +31,46 @@
   color: var(--color-grey-100);
 }
 
-@media (min-width: 768px) {
+/* Mobile menu icon */
+.mobile-menu-icon {
+  display: none; /* Hidden by default */
+  cursor: pointer;
+  font-size: 30px;
+  color: var(--color-grey-200);
+  position: absolute;
+  right: 10%;
+  top: 20px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .mobile-menu-icon {
+    display: block; /* Show hamburger icon on small screens */
+  }
+
   .header ul {
-    gap: 0.5rem;
+    display: none; /* Hidden by default */
+    flex-direction: column;
+    position: absolute;
+    top: 6rem;
+    right: 0;
+    border-bottom-left-radius: var(--size-2);
+    background-color: var(--color-grey-900);
+    padding: 1rem;
+    width: 200px;
+    z-index: 9999;
+    align-items: center;
+  }
+
+  .header ul.open {
+    display: flex; /* Show menu when open */
+  }
+
+  .header li {
+    margin: 1rem 0;
   }
 
   .header .nav-link {
-    font-size: var(--size-5);
+    font-size: var(--size-4);
   }
 }
