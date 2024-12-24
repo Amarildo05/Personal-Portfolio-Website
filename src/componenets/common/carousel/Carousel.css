@@ -52,13 +52,28 @@
 }
 
 .glide-arrow-left {
-  left: 10px;
+  left: var(--size-2);
 }
 
 .glide-arrow-right {
-  right: 10px;
+  right: var(--size-2);
 }
 
 .glide-arrow:hover {
   background-color: var(--color-grey-700);
+}
+
+@media (max-width: 768px) {
+  .glide-arrow {
+    font-size: var(--size-4);
+    padding: 6px;
+  }
+
+  .glide-arrow-left {
+    left: var(--size-1);
+  }
+  
+  .glide-arrow-right {
+    right: var(--size-1);
+  }
 }
