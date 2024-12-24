@@ -12,8 +12,8 @@ export default function Navbar() {
 
   return (
     <header className="header">
-      <NavLink to="/" className="nav-link">
-        <img src="/Logo.png" width={180} alt="Logo" />
+      <NavLink to="/">
+        <img className="nav-logo" src="/Logo.png" alt="Logo" />
       </NavLink>
       <div className="mobile-menu-icon" onClick={toggleMobileMenu}>
         <span className="menu-icon">&#9776;</span> {/* Hamburger icon */}

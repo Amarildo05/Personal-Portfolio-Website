@@ -54,3 +54,25 @@
 .content p {
   line-height: var(--size-6);
 }
+
+@media (max-width: 1300px) {
+  .project-card {
+    margin-top: var(--size-2);
+  }
+
+  .project-card a {
+    font-size: var(--size-5);
+  }
+
+  .card-image {
+    height: 12rem; /* Reduce the image height on smaller screens */
+  }
+
+  .content h3 {
+    font-size: var(--size-5);
+  }
+
+  .content p {
+    font-size: var(--size-4);
+  }
+}
