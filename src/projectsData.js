@@ -19,6 +19,8 @@ const projects = [
       "/CinemaVerse/cinema-verse6.png",
       "/CinemaVerse/cinema-verse7.png",
       "/CinemaVerse/cinema-verse8.png",
+      "/CinemaVerse/cinema-verse9.png",
+      "/CinemaVerse/cinema-verse10.png",
     ],
     gitHubRepo: "https://github.com/Amarildo05/Personal-Portfolio-Website",
     deploymentLink: "https://cinema-verse-movies.vercel.app",
@@ -55,10 +57,8 @@ const projects = [
       "/LandingPageProject/Landing-Page-Project7.png",
       "/LandingPageProject/Landing-Page-Project8.png",
     ],
-    gitHubRepo:
-      "This repository is private and only accessible to authorized users.",
-    deploymentLink:
-      "The project is currently being used by the client for Google Ads.",
+    gitHubRepo: null,
+    deploymentLink: null,
     technologies: [
       "/Technologies/Html-5-logo.svg",
       "/Technologies/Css-logo.svg",
@@ -84,8 +84,8 @@ const projects = [
       "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Test-Logo.svg/783px-Test-Logo.svg.png",
       "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Test-Logo.svg/783px-Test-Logo.svg.png",
     ],
-    gitHubRepo: "No Github Repository Yet",
-    deploymentLink: "Not Deployed Yet",
+    gitHubRepo: null,
+    deploymentLink: null,
     technologies: [
       "/Technologies/React-logo.svg",
       "/Technologies/Javascript-logo.svg",
