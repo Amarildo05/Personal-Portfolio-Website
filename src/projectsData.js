@@ -22,7 +22,7 @@ const projects = [
       "/CinemaVerse/cinema-verse9.png",
       "/CinemaVerse/cinema-verse10.png",
     ],
-    gitHubRepo: "https://github.com/Amarildo05/Personal-Portfolio-Website",
+    gitHubRepo: "https://github.com/Amarildo05/CinemaVerse",
     deploymentLink: "https://cinema-verse-movies.vercel.app",
     technologies: [
       "/Technologies/React-logo.svg",

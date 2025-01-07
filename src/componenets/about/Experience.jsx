@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Experience() {
   return (
     <div>
@@ -31,7 +33,9 @@ export default function Experience() {
         fully invested in completing the task with high quality. The landing
         page was built using <strong>HTML</strong>, <strong>CSS</strong>,{" "}
         <strong>Bootstrap</strong>, and a bit of <strong>JavaScript</strong> to
-        keep the page lightweight and optimized for Google Ads.
+        keep the page lightweight and optimized for Google Ads. <br />- You can
+        explore the project, <Link to="/single-project/2">LandingPage</Link>,
+        for more details.
       </p>
     </div>
   );

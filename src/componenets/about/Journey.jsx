@@ -103,11 +103,8 @@ export default function Journey() {
           <strong>Final Project</strong> <br />- The bootcamp culminated in a
           hands-on final project where I applied all the skills I had learned to
           develop a fully functional web application, showcasing my ability to
-          solve complex problems. <br />- The project,{" "}
-          <Link to="/single-project/1">
-            CinemaVerse
-          </Link>
-          , can be explored further here.
+          solve complex problems. <br />- You can explore the project,{" "}
+          <Link to="/single-project/1">CinemaVerse</Link>, for more details.
         </li>
       </ol>
 
