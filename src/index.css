@@ -30,6 +30,7 @@ body {
   --size-16: 3.8rem;
   --size-20: 5rem;
   --size-40: 10rem;
+  --size-50: 20rem;
 
   margin: 0;
   background-color: var(--color-grey-500);
