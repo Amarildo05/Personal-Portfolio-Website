@@ -1,6 +1,8 @@
 import projects from "../../../projectsData";
 import ProjectCards from "../../projects/projectCard/ProjectCards";
 import "../../../PagesLayout.css";
+import { Link } from "react-router-dom";
+import "./FeaturedProjects.css";
 
 export default function FeaturedProjects() {
   // Filter the featured projects
@@ -10,6 +12,12 @@ export default function FeaturedProjects() {
     <section className="page-layout">
       <h2>Featured Projects</h2>
       <ProjectCards projects={featuredProjects} />
+
+      <div className="featured-btn-container">
+        <Link to="/projects">
+          <button className="featured-btn">View More Projects 🔍</button>
+        </Link>
+      </div>
     </section>
   );
 }
