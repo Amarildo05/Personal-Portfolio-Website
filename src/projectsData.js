@@ -1,7 +1,7 @@
 const projects = [
   {
     id: 1,
-    title: "CinemaVerse",
+    title: "Cinema Verse",
     description:
       "CinemaVerse is your all-in-one movie resource, providing real-time access to the latest movie information. Explore top-rated films, discover upcoming releases, watch trailers, and stay updated on everything happening in the world of cinema.",
     photo: "/CinemaVerse/CinemaVerse.png",
@@ -71,28 +71,37 @@ const projects = [
   },
   {
     id: 3,
-    title: "Test 3",
+    title: "Valorant Playbook",
     description:
-      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo",
+      "Valorant Playbook is a simple guide designed to help players navigate the world of Valorant. Whether you're new to the game or just curious, you can explore detailed information about agents, weapons, and maps to improve your gameplay.",
     photo:
-      "https://human-haus.my/cdn/shop/products/test_ac1db6fb-b298-4f86-b760-d357323412aa.png?v=1704316402",
+      "/ValorantPlaybook/ValorantPlaybook.png",
     isFeatured: false,
     detailedDescription:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "Valorant Playbook is a simple guide designed to help both new and experienced players navigate the world of Valorant. Whether you're just starting out or curious about the game, this resource provides essential information about the different agents, weapons, and maps. You can learn about each agent, discover the available weapons, and familiarize yourself with the various maps to improve your strategy. Perfect for those looking to enhance their gameplay, the Valorant Playbook serves as a valuable tool for gathering key insights and getting a better understanding of the game.",
     images: [
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Test-Logo.svg/783px-Test-Logo.svg.png",
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Test-Logo.svg/783px-Test-Logo.svg.png",
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Test-Logo.svg/783px-Test-Logo.svg.png",
+      "/ValorantPlaybook/valorant-playbook.png",
+      "/ValorantPlaybook/valorant-playbook2.png",
+      "/ValorantPlaybook/valorant-playbook3.png",
+      "/ValorantPlaybook/valorant-playbook4.png",
+      "/ValorantPlaybook/valorant-playbook5.png",
+      "/ValorantPlaybook/valorant-playbook6.png",
+      "/ValorantPlaybook/valorant-playbook7.png",
+      "/ValorantPlaybook/valorant-playbook8.png",
+      "/ValorantPlaybook/valorant-playbook9.png",
+      "/ValorantPlaybook/valorant-playbook10.png",
+      "/ValorantPlaybook/valorant-playbook11.png",
     ],
-    gitHubRepo: null,
-    deploymentLink: null,
+    gitHubRepo: "https://github.com/Amarildo05/valorant-playbook",
+    deploymentLink: "https://valorant-playbook.vercel.app",
     technologies: [
       "/Technologies/React-logo.svg",
-      "/Technologies/Javascript-logo.svg",
+      "/Technologies/Vitejs-logo.svg",
+      "/Technologies/Typescript-logo.svg",
       "/Technologies/Css-logo.svg",
     ],
     technologiesDescription:
-      "Test Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Valorant Playbook is built with React, Vite, TypeScript, and plain CSS for the design. A key feature of the project is the custom carousel, which I decided to build from scratch using TypeScript. This carousel is the main component, where each slide represents a single agent, weapon, or map with its own content and data.",
   },
 ];
 
