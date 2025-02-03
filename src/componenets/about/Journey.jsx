@@ -107,18 +107,10 @@ export default function Journey() {
           <Link to="/single-project/1">CinemaVerse</Link>, for more details.
         </li>
       </ol>
-
       <p>
-        <strong>Key Details:</strong>
+        <strong>Program Provider:</strong> Software Development Academy Albania
+        (SDA) in collaboration with Protik
       </p>
-      <ul>
-        <li>Total Program Duration: 280 hours</li>
-        <li>Attendance: 100%</li>
-        <li>
-          Program Provider: Software Development Academy Albania (SDA) in
-          collaboration with Protik
-        </li>
-      </ul>
       <p>
         This bootcamp equipped me with not only the technical skills but also a
         problem-solving mindset. It was an invaluable experience that shaped me
