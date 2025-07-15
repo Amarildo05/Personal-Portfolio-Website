@@ -71,70 +71,6 @@ const projects = [
   },
   {
     id: 3,
-    title: "Valorant Playbook",
-    description:
-      "Valorant Playbook is a simple guide designed to help players navigate the world of Valorant. Whether you're new to the game or just curious, you can explore detailed information about agents, weapons, and maps to improve your gameplay.",
-    photo: "/ValorantPlaybook/ValorantPlaybook.png",
-    isFeatured: false,
-    detailedDescription:
-      "Valorant Playbook is a simple guide designed to help both new and experienced players navigate the world of Valorant. Whether you're just starting out or curious about the game, this resource provides essential information about the different agents, weapons, and maps. You can learn about each agent, discover the available weapons, and familiarize yourself with the various maps to improve your strategy. Perfect for those looking to enhance their gameplay, the Valorant Playbook serves as a valuable tool for gathering key insights and getting a better understanding of the game.",
-    images: [
-      "/ValorantPlaybook/valorant-playbook.png",
-      "/ValorantPlaybook/valorant-playbook2.png",
-      "/ValorantPlaybook/valorant-playbook3.png",
-      "/ValorantPlaybook/valorant-playbook4.png",
-      "/ValorantPlaybook/valorant-playbook5.png",
-      "/ValorantPlaybook/valorant-playbook6.png",
-      "/ValorantPlaybook/valorant-playbook7.png",
-      "/ValorantPlaybook/valorant-playbook8.png",
-      "/ValorantPlaybook/valorant-playbook9.png",
-      "/ValorantPlaybook/valorant-playbook10.png",
-      "/ValorantPlaybook/valorant-playbook11.png",
-    ],
-    gitHubRepo: "https://github.com/Amarildo05/valorant-playbook",
-    deploymentLink: "https://valorant-playbook.vercel.app",
-    technologies: [
-      "/Technologies/React-logo.svg",
-      "/Technologies/Vitejs-logo.svg",
-      "/Technologies/Typescript-logo.svg",
-      "/Technologies/Css-logo.svg",
-    ],
-    technologiesDescription:
-      "Valorant Playbook is built with React, Vite, TypeScript, and plain CSS for the design. A key feature of the project is the custom carousel, which I decided to build from scratch using TypeScript. This carousel is the main component, where each slide represents a single agent, weapon, or map with its own content and data.",
-  },
-  {
-    id: 4,
-    title: "Gym Members (FullStack)",
-    description:
-      "Gym Members Dashboard is a simple tool designed to help manage gym memberships with ease. Whether you're tracking new signups or keeping tabs on active and inactive members, this dashboard makes it easy to organize member details, registration dates, and payment status in one place.",
-    photo: "/GymDashboardApp/GymDashboard.png",
-    isFeatured: true,
-    detailedDescription:
-      "Gym Members Dashboard is a user-friendly application built to simplify gym membership management. With this tool, you can easily create new members by entering their personal details, register the date they joined, and keep an updated record of their membership status. The dashboard clearly indicates whether a member is currently active or inactive based on their payment status, helping gym owners or staff stay organized and on top of renewals. It’s a straightforward solution to streamline day-to-day operations and maintain an efficient workflow in any gym environment.",
-    images: [
-      "/GymDashboardApp/Gym-dashboard-app.png",
-      "/GymDashboardApp/Gym-dashboard-app2.png",
-      "/GymDashboardApp/Gym-dashboard-app3.png",
-      "/GymDashboardApp/Gym-dashboard-app4.png",
-      "/GymDashboardApp/Gym-dashboard-app5.png",
-      "/GymDashboardApp/Gym-dashboard-app6.png",
-      "/GymDashboardApp/Gym-dashboard-app7.png",
-    ],
-    gitHubRepo: "https://github.com/Amarildo05/Gym-Dashboard-App",
-    deploymentLink: "https://gym-dashboard-app-kappa.vercel.app",
-    technologies: [
-      "/Technologies/React-logo.svg",
-      "/Technologies/Javascript-logo.svg",
-      "/Technologies/Tailwind-logo.svg",
-      "/Technologies/Nodejs-logo.svg",
-      "/Technologies/Express-icon.svg",
-      "/Technologies/Mongodb-icon.svg",
-    ],
-    technologiesDescription:
-      "Gym Members Dashboard is built using React and Vite for a smooth development experience, with Tailwind CSS for fast and efficient styling. The main goal of this project was to showcase full-stack development and CRUD functionality. The frontend is deployed on Vercel and communicates seamlessly with a backend hosted on Render. The backend is powered by Node.js and Express.js, while MongoDB is used as the database to store and manage member data.",
-  },
-  {
-    id: 5,
     title: "Bert Electric",
     description:
       "Bert Electric is a professional website created to represent an electrical and security systems. It highlights the company’s identity, services, and products through a clean and modern layout. The site also offers clients an easy way to get in touch and learn more about the business.",
@@ -167,6 +103,70 @@ const projects = [
     ],
     technologiesDescription:
       "Bert Electric is built using React and Vite to ensure a scalable, and maintainable foundation—ideal for future feature expansions. The project was developed from scratch to match the client's specific vision and needs. Styling is handled with Tailwind CSS for a clean and responsive layout, combined with PrimeReact components and PrimeIcons for a modern UI experience. The codebase is well-organized, with clearly separated and readable files to maintain structure and ease of collaboration.",
+  },
+  {
+    id: 4,
+    title: "Valorant Playbook",
+    description:
+      "Valorant Playbook is a simple guide designed to help players navigate the world of Valorant. Whether you're new to the game or just curious, you can explore detailed information about agents, weapons, and maps to improve your gameplay.",
+    photo: "/ValorantPlaybook/ValorantPlaybook.png",
+    isFeatured: false,
+    detailedDescription:
+      "Valorant Playbook is a simple guide designed to help both new and experienced players navigate the world of Valorant. Whether you're just starting out or curious about the game, this resource provides essential information about the different agents, weapons, and maps. You can learn about each agent, discover the available weapons, and familiarize yourself with the various maps to improve your strategy. Perfect for those looking to enhance their gameplay, the Valorant Playbook serves as a valuable tool for gathering key insights and getting a better understanding of the game.",
+    images: [
+      "/ValorantPlaybook/valorant-playbook.png",
+      "/ValorantPlaybook/valorant-playbook2.png",
+      "/ValorantPlaybook/valorant-playbook3.png",
+      "/ValorantPlaybook/valorant-playbook4.png",
+      "/ValorantPlaybook/valorant-playbook5.png",
+      "/ValorantPlaybook/valorant-playbook6.png",
+      "/ValorantPlaybook/valorant-playbook7.png",
+      "/ValorantPlaybook/valorant-playbook8.png",
+      "/ValorantPlaybook/valorant-playbook9.png",
+      "/ValorantPlaybook/valorant-playbook10.png",
+      "/ValorantPlaybook/valorant-playbook11.png",
+    ],
+    gitHubRepo: "https://github.com/Amarildo05/valorant-playbook",
+    deploymentLink: "https://valorant-playbook.vercel.app",
+    technologies: [
+      "/Technologies/React-logo.svg",
+      "/Technologies/Vitejs-logo.svg",
+      "/Technologies/Typescript-logo.svg",
+      "/Technologies/Css-logo.svg",
+    ],
+    technologiesDescription:
+      "Valorant Playbook is built with React, Vite, TypeScript, and plain CSS for the design. A key feature of the project is the custom carousel, which I decided to build from scratch using TypeScript. This carousel is the main component, where each slide represents a single agent, weapon, or map with its own content and data.",
+  },
+  {
+    id: 5,
+    title: "Gym Members (FullStack)",
+    description:
+      "Gym Members Dashboard is a simple tool designed to help manage gym memberships with ease. Whether you're tracking new signups or keeping tabs on active and inactive members, this dashboard makes it easy to organize member details, registration dates, and payment status in one place.",
+    photo: "/GymDashboardApp/GymDashboard.png",
+    isFeatured: true,
+    detailedDescription:
+      "Gym Members Dashboard is a user-friendly application built to simplify gym membership management. With this tool, you can easily create new members by entering their personal details, register the date they joined, and keep an updated record of their membership status. The dashboard clearly indicates whether a member is currently active or inactive based on their payment status, helping gym owners or staff stay organized and on top of renewals. It’s a straightforward solution to streamline day-to-day operations and maintain an efficient workflow in any gym environment.",
+    images: [
+      "/GymDashboardApp/Gym-dashboard-app.png",
+      "/GymDashboardApp/Gym-dashboard-app2.png",
+      "/GymDashboardApp/Gym-dashboard-app3.png",
+      "/GymDashboardApp/Gym-dashboard-app4.png",
+      "/GymDashboardApp/Gym-dashboard-app5.png",
+      "/GymDashboardApp/Gym-dashboard-app6.png",
+      "/GymDashboardApp/Gym-dashboard-app7.png",
+    ],
+    gitHubRepo: "https://github.com/Amarildo05/Gym-Dashboard-App",
+    deploymentLink: "https://gym-dashboard-app-kappa.vercel.app",
+    technologies: [
+      "/Technologies/React-logo.svg",
+      "/Technologies/Javascript-logo.svg",
+      "/Technologies/Tailwind-logo.svg",
+      "/Technologies/Nodejs-logo.svg",
+      "/Technologies/Express-icon.svg",
+      "/Technologies/Mongodb-icon.svg",
+    ],
+    technologiesDescription:
+      "Gym Members Dashboard is built using React and Vite for a smooth development experience, with Tailwind CSS for fast and efficient styling. The main goal of this project was to showcase full-stack development and CRUD functionality. The frontend is deployed on Vercel and communicates seamlessly with a backend hosted on Render. The backend is powered by Node.js and Express.js, while MongoDB is used as the database to store and manage member data.",
   },
 ];
 
