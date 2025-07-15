@@ -133,6 +133,41 @@ const projects = [
     technologiesDescription:
       "Gym Members Dashboard is built using React and Vite for a smooth development experience, with Tailwind CSS for fast and efficient styling. The main goal of this project was to showcase full-stack development and CRUD functionality. The frontend is deployed on Vercel and communicates seamlessly with a backend hosted on Render. The backend is powered by Node.js and Express.js, while MongoDB is used as the database to store and manage member data.",
   },
+  {
+    id: 5,
+    title: "Bert Electric",
+    description:
+      "Bert Electric is a professional website created to represent an electrical and security systems. It highlights the company’s identity, services, and products through a clean and modern layout. The site also offers clients an easy way to get in touch and learn more about the business.",
+    photo: "/BertElectric/BertElectric-Logo.png",
+    isFeatured: true,
+    detailedDescription:
+      "Bert Electric is a modern business presentation website built to showcase the identity, services, and product offerings of an electrical and security systems company. Designed with both clarity and professionalism in mind, the site provides visitors with a clear understanding of who the company is, what they specialize in, and how clients can get in touch. From service descriptions to product displays and contact options, Bert Electric serves as a complete online presence for the business—helping build trust, improve visibility, and offer a direct communication channel for potential clients.",
+    images: [
+      "/BertElectric/Bert-Electric.png",
+      "/BertElectric/Bert-Electric2.png",
+      "/BertElectric/Bert-Electric3.png",
+      "/BertElectric/Bert-Electric4.png",
+      "/BertElectric/Bert-Electric5.png",
+      "/BertElectric/Bert-Electric6.png",
+      "/BertElectric/Bert-Electric7.png",
+      "/BertElectric/Bert-Electric8.png",
+      "/BertElectric/Bert-Electric9.png",
+      "/BertElectric/Bert-Electric10.png",
+      "/BertElectric/Bert-Electric11.png",
+      "/BertElectric/Bert-Electric12.png",
+    ],
+    gitHubRepo: null,
+    deploymentLink: "https://bert-electric.vercel.app",
+    technologies: [
+      "/Technologies/React-logo.svg",
+      "/Technologies/Vitejs-logo.svg",
+      "/Technologies/Javascript-logo.svg",
+      "/Technologies/Tailwind-logo.svg",
+      "/Technologies/Primereact-logo.png",
+    ],
+    technologiesDescription:
+      "Bert Electric is built using React and Vite to ensure a scalable, and maintainable foundation—ideal for future feature expansions. The project was developed from scratch to match the client's specific vision and needs. Styling is handled with Tailwind CSS for a clean and responsive layout, combined with PrimeReact components and PrimeIcons for a modern UI experience. The codebase is well-organized, with clearly separated and readable files to maintain structure and ease of collaboration.",
+  },
 ];
 
 export default projects;
