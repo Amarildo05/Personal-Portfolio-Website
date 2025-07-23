@@ -24,12 +24,15 @@ body {
   --size-4: 1rem;
   --size-5: 1.25rem;
   --size-6: 1.5rem;
+  --size-7: 1.7rem;
   --size-8: 2rem;
+  --size-10: 2.5rem;
   --size-12: 3rem;
   --size-14: 3.2rem;
   --size-16: 3.8rem;
   --size-20: 5rem;
   --size-40: 10rem;
+  --size-45: 15rem;
   --size-50: 20rem;
 
   margin: 0;

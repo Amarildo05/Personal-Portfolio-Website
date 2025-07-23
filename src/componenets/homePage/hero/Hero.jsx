@@ -14,7 +14,7 @@ export default function Hero() {
       </div>
       <h1>Hi, I&apos;m Amarildo Kola</h1>
       <p>
-        A passionate Junior JavaScript Developer. I focus on building
+        A passionate JavaScript Developer. I focus on building
         interactive web applications using JavaScript, TypeScript, React, and
         Next.js, and i&apos;m excited to continue growing in the world of
         programming.

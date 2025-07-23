@@ -2,7 +2,7 @@ export default function HeroAbout() {
   return (
     <div>
       <p>
-        Hi, I&apos;m <strong>Amarildo Kola</strong>, a passionate Junior
+        Hi, I&apos;m <strong>Amarildo Kola</strong>, a passionate
         JavaScript Developer. I focus on building interactive web applications
         using <strong>JavaScript</strong>, <strong>TypeScript</strong>,{" "}
         <strong>React</strong>, and <strong>Next.js</strong>.

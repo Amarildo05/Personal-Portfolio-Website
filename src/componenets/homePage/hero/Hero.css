@@ -9,9 +9,9 @@
 }
 
 .image {
-  width: 285px;
-  height: 285px;
-  opacity: 0.9;
+  width: 280px;
+  height: 280px;
+  opacity: 0.7;
   border-radius: 50%;
   overflow: hidden;
   margin: auto;
@@ -25,7 +25,7 @@
 }
 
 .hero h1 {
-  font-size: var(--size-16);
+  font-size: var(--size-14);
   margin: var(--size-2) 0;
   color: var(--color-grey-300);
 }
@@ -62,7 +62,7 @@
   }
 
   .hero h1 {
-    font-size: var(--size-8);
+    font-size: var(--size-7);
   }
 
   .hero p {

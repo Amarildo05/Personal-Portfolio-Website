@@ -8,6 +8,7 @@
 }
 
 .project-card {
+  margin: var(--size-4);
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
   border-radius: var(--size-2);
   background-color: var(--color-grey-800);
@@ -32,7 +33,7 @@
 
 .card-image {
   width: 100%;
-  height: var(--size-50);
+  height: var(--size-45);
   overflow: hidden;
   display: flex; /* Ensure the image covers the container */
   border-top-left-radius: var(--size-2);
