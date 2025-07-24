@@ -63,7 +63,7 @@
 @media (max-width: 768px) {
   .about {
     padding: var(--size-4);
-    width: 95%;
+    width: 93%;
   }
 
   .about-header {

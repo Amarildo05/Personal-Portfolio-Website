@@ -69,6 +69,13 @@ export default function Contact() {
             href="https://www.linkedin.com/in/amarildo-kola/"
             target="_blank"
             rel="noopener noreferrer"
+            style={{
+              wordBreak: "break-word",
+              overflowWrap: "anywhere",
+              hyphens: "auto",
+              maxWidth: "100%",
+              display: "inline-block",
+            }}
           >
             https://www.linkedin.com/in/amarildo-kola/
           </a>

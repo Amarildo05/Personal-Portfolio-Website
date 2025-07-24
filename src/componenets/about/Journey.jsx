@@ -5,7 +5,7 @@ export default function Journey() {
     <div>
       <h2>
         My Journey
-        <i className="pi pi-send" style={{ marginLeft: "0.5rem" }}></i>
+        <i className="pi pi-hourglass" style={{ marginLeft: "0.5rem" }}></i>
       </h2>
       <p>
         My journey into programming started with a deep curiosity about how the
@@ -52,13 +52,10 @@ export default function Journey() {
       <h3>General Scope of the Bootcamp:</h3>
       <ol>
         <li>
-          <strong>JavaScript Developer – Introduction</strong> <br />- An
-          introduction to the JavaScript programming language, including its
-          syntax, data structures, and core principles.
+          <strong>JavaScript Developer – Introduction</strong>
         </li>
         <li>
-          <strong>JavaScript Programming Language</strong> <br />- In-depth
-          exploration of JavaScript basics and advanced concepts such as:
+          <strong>JavaScript Programming Language</strong>
           <ul>
             <li>Structural programming</li>
             <li>Object-Oriented Programming (OOP) in JavaScript</li>
@@ -66,8 +63,7 @@ export default function Journey() {
           </ul>
         </li>
         <li>
-          <strong>HTML & CSS</strong> <br />- Mastery of HTML and CSS
-          fundamentals, including:
+          <strong>HTML & CSS</strong>
           <ul>
             <li>Advanced HTML elements and structures</li>
             <li>CSS preprocessors like SASS</li>
@@ -75,8 +71,7 @@ export default function Journey() {
           </ul>
         </li>
         <li>
-          <strong>Software Engineering</strong> <br />- Introduction to software
-          engineering practices including:
+          <strong>Software Engineering</strong>
           <ul>
             <li>Testing methodologies</li>
             <li>
@@ -86,8 +81,7 @@ export default function Journey() {
           </ul>
         </li>
         <li>
-          <strong>Frontend and Backend Technologies</strong> <br />- A deep dive
-          into frontend and backend technologies, covering:
+          <strong>Frontend and Backend Technologies</strong>
           <ul>
             <li>Key differences between frontend and backend development</li>
             <li>
