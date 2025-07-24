@@ -5,10 +5,8 @@ export default function Experience() {
     <div>
       {" "}
       <h2>
-        <span role="img" aria-label="briefcase">
-          💼
-        </span>{" "}
         My Experience
+        <i className="pi pi-briefcase" style={{ marginLeft: "0.5rem" }}></i>
       </h2>
       <p>
         I have had the opportunity to work on real projects and collaborate with

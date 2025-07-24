@@ -42,7 +42,7 @@
 .hero-btn {
   padding: var(--size-2) var(--size-4);
   margin-bottom: var(--size-3);
-  background-color: var(--color-grey-600);
+  background-color: var(--color-grey-700);
   color: var(--color-grey-100);
   font-size: var(--size-4);
   border: none;
@@ -52,7 +52,7 @@
 }
 
 .hero-btn:hover {
-  background-color: var(--color-grey-700);
+  background-color: var(--color-grey-600);
 }
 
 @media (max-width: 480px) {

@@ -2,10 +2,8 @@ export default function Technologies() {
   return (
     <div>
       <h2>
-        <span role="img" aria-label="tools">
-          💻
-        </span>{" "}
         Technologies & Tools
+        <i className="pi pi-desktop" style={{ marginLeft: "0.5rem" }}></i>
       </h2>
       <p>I am familiar with the following technologies:</p>
       <ul>

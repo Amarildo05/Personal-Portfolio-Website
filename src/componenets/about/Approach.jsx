@@ -2,10 +2,8 @@ export default function Approach() {
   return (
     <div>
       <h2>
-        <span role="img" aria-label="brain">
-          🧠
-        </span>{" "}
         My Approach
+        <i className="pi pi-cog" style={{ marginLeft: "0.5rem" }}></i>
       </h2>
       <p>
         I approach every project with patience, discipline, and a passion for
@@ -17,10 +15,8 @@ export default function Approach() {
       </p>
 
       <h2>
-        <span role="img" aria-label="future">
-          📈
-        </span>{" "}
         Looking Ahead
+        <i className="pi pi-chart-line" style={{ marginLeft: "0.5rem" }}></i>
       </h2>
       <p>
         As I continue to grow in my career, I am excited to take on more

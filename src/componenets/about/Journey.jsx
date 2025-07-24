@@ -4,10 +4,8 @@ export default function Journey() {
   return (
     <div>
       <h2>
-        <span role="img" aria-label="rocket">
-          🚀
-        </span>{" "}
         My Journey
+        <i className="pi pi-send" style={{ marginLeft: "0.5rem" }}></i>
       </h2>
       <p>
         My journey into programming started with a deep curiosity about how the

@@ -15,7 +15,10 @@ export default function FeaturedProjects() {
 
       <div className="featured-btn-container">
         <Link to="/projects">
-          <button className="featured-btn">View More Projects 🔍</button>
+          <button className="featured-btn">
+            View More Projects{" "}
+            <i className="pi pi-search" style={{ marginLeft: "0.3rem" }} />
+          </button>
         </Link>
       </div>
     </section>

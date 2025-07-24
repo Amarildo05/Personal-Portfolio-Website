@@ -6,7 +6,7 @@
 
 .featured-btn {
   padding: var(--size-2) var(--size-4);
-  background-color: var(--color-grey-600);
+  background-color: var(--color-grey-700);
   color: var(--color-grey-100);
   font-size: var(--size-4);
   border: none;
@@ -16,7 +16,7 @@
 }
 
 .featured-btn:hover {
-  background-color: var(--color-grey-700);
+  background-color: var(--color-grey-800);
 }
 
 @media (max-width: 480px) {

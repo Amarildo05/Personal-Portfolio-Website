@@ -11,3 +11,10 @@
   height: 45px;
   object-fit: contain;
 }
+
+@media (max-width: 840px) {
+  .tech-logo {
+    width: 32px;
+    height: 32px;
+  }
+}
