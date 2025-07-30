@@ -5,13 +5,13 @@ export default function Footer() {
 
   return (
     <footer>
-      <p>
+      <p className="pop-fade-in">
         Designed and developed by Amarildo Kola. &copy; {currentYear}. All
         rights reserved.
       </p>
 
       {/* Social Media and Contact Links */}
-      <div className="footer-links">
+      <div className="footer-links pop-fade-in">
         <a
           href="https://www.linkedin.com/in/amarildo-kola-7566b7297"
           target="_blank"

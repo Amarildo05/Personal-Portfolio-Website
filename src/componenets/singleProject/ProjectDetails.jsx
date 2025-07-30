@@ -12,7 +12,7 @@ export default function ProjectDetails({ project }) {
   );
 
   return (
-    <article className="project-content">
+    <article className="project-content fade-up">
       <header className="project-header">
         <h1>{project.title}</h1>
         <img src={project.photo} alt={project.title} width={200} height={150} />

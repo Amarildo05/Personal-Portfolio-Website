@@ -10,12 +10,12 @@ export default function FeaturedProjects() {
 
   return (
     <section className="page-layout">
-      <h2>Featured Projects</h2>
+      <h2 className="pop-fade-in">Featured Projects</h2>
       <ProjectCards projects={featuredProjects} />
 
       <div className="featured-btn-container">
         <Link to="/projects">
-          <button className="featured-btn">
+          <button className="featured-btn pop-fade-in">
             View More Projects{" "}
             <i className="pi pi-search" style={{ marginLeft: "0.3rem" }} />
           </button>

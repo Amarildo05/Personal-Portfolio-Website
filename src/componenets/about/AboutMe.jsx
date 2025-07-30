@@ -8,7 +8,7 @@ import Technologies from "./Technologies";
 
 export default function AboutMe() {
   return (
-    <section className="about">
+    <section className="about fade-up">
       <header className="about-header">
         <h1>About Me</h1>
       </header>

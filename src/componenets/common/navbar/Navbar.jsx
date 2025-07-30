@@ -44,13 +44,16 @@ export default function Navbar() {
   return (
     <header className="header">
       <NavLink to="/">
-        <img className="nav-logo" src="/Logo.png" alt="Logo" />
+        <img className="nav-logo slide-fade-in" src="/Logo.png" alt="Logo" />
       </NavLink>
-      <div className="mobile-menu-icon" onClick={toggleMobileMenu}>
+      <div
+        className="mobile-menu-icon slide-fade-in-reverse"
+        onClick={toggleMobileMenu}
+      >
         <span className="menu-icon">&#9776;</span> {/* Hamburger icon */}
       </div>
       <nav>
-        <ul className={`${isMobileMenuOpen ? "open" : ""}`}>
+        <ul className={`${isMobileMenuOpen ? "open" : ""} pop-fade-in`}>
           <li>
             <NavLink to="/" className="nav-link" onClick={closeMenuOnLinkClick}>
               Home

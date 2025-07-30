@@ -5,7 +5,7 @@ import Technologies from "../../common/technologies/Technologies";
 
 export default function ProjectCards({ projects }) {
   return (
-    <ul className="project-cards-grid">
+    <ul className="project-cards-grid fade-up">
       {projects.map((project) => (
         <li key={project.id} className="project-card">
           <Link to={`/single-project/${project.id}`}>
