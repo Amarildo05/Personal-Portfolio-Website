@@ -11,6 +11,9 @@ export default function ProjectDetails({ project }) {
     "<br />"
   );
 
+  const replacedTechnologiesDescription =
+    project.technologiesDescription.replace(/\n/g, "<br />");
+
   return (
     <article className="project-content fade-up">
       <header className="project-header">
@@ -46,7 +49,10 @@ export default function ProjectDetails({ project }) {
           </span>
         )}
       </p>
-      <p className="technologies">{project.technologiesDescription}</p>
+      <p
+        className="technologies"
+        dangerouslySetInnerHTML={{ __html: replacedTechnologiesDescription }}
+      ></p>
       <Technologies technologies={project.technologies} />
     </article>
   );

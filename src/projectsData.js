@@ -77,7 +77,7 @@ const projects = [
     photo: "/BertElectric/BertElectric-Logo.png",
     isFeatured: true,
     detailedDescription:
-      "Bert Electric is a modern business presentation website built to showcase the identity, services, and product offerings of an electrical and security systems company. Designed with both clarity and professionalism in mind, the site provides visitors with a clear understanding of who the company is, what they specialize in, and how clients can get in touch. From service descriptions to product displays and contact options, Bert Electric serves as a complete online presence for the business—helping build trust, improve visibility, and offer a direct communication channel for potential clients.",
+      "Bert Electric is a modern business presentation website built to showcase the identity, services, and product offerings of an electrical and security systems company. Designed with both clarity and professionalism in mind, the site provides visitors with a clear understanding of who the company is, what they specialize in, and how clients can get in touch. From service descriptions to product displays and contact options, Bert Electric serves as a complete online presence for the business—helping build trust, improve visibility, and offer a direct communication channel for potential clients. (This is not the final version of the app — it’s still under development.)",
     images: [
       "/BertElectric/Bert-Electric.png",
       "/BertElectric/Bert-Electric2.png",
@@ -102,7 +102,7 @@ const projects = [
       "/Technologies/Primereact-logo.png",
     ],
     technologiesDescription:
-      "Bert Electric is built using React and Vite to ensure a scalable, and maintainable foundation—ideal for future feature expansions. The project was developed from scratch to match the client's specific vision and needs. Styling is handled with Tailwind CSS for a clean and responsive layout, combined with PrimeReact components and PrimeIcons for a modern UI experience. The codebase is well-organized, with clearly separated and readable files to maintain structure and ease of collaboration.",
+      "Bert Electric is built using React and Vite to ensure a scalable, and maintainable foundation—ideal for future feature expansions. The project was developed from scratch to match the client's specific vision and needs. Styling is handled with Tailwind CSS for a clean and responsive layout, combined with PrimeReact components and PrimeIcons for a modern UI experience. The codebase is well-organized, with clearly separated and readable files to maintain structure and ease of collaboration. (This is not the final version of the app — it’s still under development.)",
   },
   {
     id: 4,
@@ -112,7 +112,8 @@ const projects = [
     photo: "/ValorantPlaybook/ValorantPlaybook.png",
     isFeatured: false,
     detailedDescription:
-      "Valorant Playbook is a simple guide designed to help both new and experienced players navigate the world of Valorant. Whether you're just starting out or curious about the game, this resource provides essential information about the different agents, weapons, and maps. You can learn about each agent, discover the available weapons, and familiarize yourself with the various maps to improve your strategy. Perfect for those looking to enhance their gameplay, the Valorant Playbook serves as a valuable tool for gathering key insights and getting a better understanding of the game.",
+      "Valorant Playbook is a simple guide designed to help both new and experienced players navigate the world of Valorant. Whether you're just starting out or curious about the game, this resource provides essential information about the different agents, weapons, and maps. You can learn about each agent, discover the available weapons, and familiarize yourself with the various maps to improve your strategy. Perfect for those looking to enhance their gameplay, the Valorant Playbook serves as a valuable tool for gathering key insights and getting a better understanding of the game. \n" +
+      "(This is a demo project and may receive updates in the future.)",
     images: [
       "/ValorantPlaybook/valorant-playbook.png",
       "/ValorantPlaybook/valorant-playbook2.png",
@@ -135,7 +136,8 @@ const projects = [
       "/Technologies/Css-logo.svg",
     ],
     technologiesDescription:
-      "Valorant Playbook is built with React, Vite, TypeScript, and plain CSS for the design. A key feature of the project is the custom carousel, which I decided to build from scratch using TypeScript. This carousel is the main component, where each slide represents a single agent, weapon, or map with its own content and data.",
+      "Valorant Playbook is built with React, Vite, TypeScript, and plain CSS for the design. A key feature of the project is the custom carousel, which I decided to build from scratch using TypeScript. This carousel is the main component, where each slide represents a single agent, weapon, or map with its own content and data.\n" +
+      "(Demo version — subject to future improvements.)",
   },
   {
     id: 5,
@@ -145,7 +147,8 @@ const projects = [
     photo: "/GymDashboardApp/GymDashboard.png",
     isFeatured: true,
     detailedDescription:
-      "Gym Members Dashboard is a user-friendly application built to simplify gym membership management. With this tool, you can easily create new members by entering their personal details, register the date they joined, and keep an updated record of their membership status. The dashboard clearly indicates whether a member is currently active or inactive based on their payment status, helping gym owners or staff stay organized and on top of renewals. It’s a straightforward solution to streamline day-to-day operations and maintain an efficient workflow in any gym environment.",
+      "Gym Members Dashboard is a user-friendly application built to simplify gym membership management. With this tool, you can easily create new members by entering their personal details, register the date they joined, and keep an updated record of their membership status. The dashboard clearly indicates whether a member is currently active or inactive based on their payment status, helping gym owners or staff stay organized and on top of renewals. It’s a straightforward solution to streamline day-to-day operations and maintain an efficient workflow in any gym environment.\n" +
+      "(This is a demo project and may receive updates in the future.)",
     images: [
       "/GymDashboardApp/Gym-dashboard-app.png",
       "/GymDashboardApp/Gym-dashboard-app2.png",
@@ -166,7 +169,8 @@ const projects = [
       "/Technologies/Mongodb-icon.svg",
     ],
     technologiesDescription:
-      "Gym Members Dashboard is built using React and Vite for a smooth development experience, with Tailwind CSS for fast and efficient styling. The main goal of this project was to showcase full-stack development and CRUD functionality. The frontend is deployed on Vercel and communicates seamlessly with a backend hosted on Render. The backend is powered by Node.js and Express.js, while MongoDB is used as the database to store and manage member data.",
+      "Gym Members Dashboard is built using React and Vite for a smooth development experience, with Tailwind CSS for fast and efficient styling. The main goal of this project was to showcase full-stack development and CRUD functionality. The frontend is deployed on Vercel and communicates seamlessly with a backend hosted on Render. The backend is powered by Node.js and Express.js, while MongoDB is used as the database to store and manage member data.\n" +
+      " (Demo version — subject to future improvements.)",
   },
 ];
 
