@@ -8,20 +8,26 @@ export default function Technologies() {
       <p>I am familiar with the following technologies:</p>
       <ul>
         <li>
-          <strong>Frontend:</strong> HTML, CSS, JavaScript, TypeScript,
-          React.js, Next.js, Bootstrap, Tailwind CSS, Material-UI, Ant Design,
-          PrimeReact etc.
+          <strong>Frontend:</strong> HTML, CSS, JavaScript, TypeScript, React,
+          Next.js, Tailwind CSS, Bootstrap
+        </li>
+        <li>
+          <strong>State & Data:</strong> Context API, Redux, Axios for APIs
         </li>
         <li>
           <strong>Backend & Databases:</strong> Node.js (basic knowledge),
           Express.js (basic knowledge), MongoDB, Firebase.
         </li>
         <li>
-          <strong>Tools & Libraries:</strong> Axios (API requests), Postman,
-          Docker (basic knowledge), Formik, Yup, Git, NPM, Vercel, Netlify etc.
+          <strong>Testing & Quality:</strong> Jest, React Testing Library
+          (basic)
         </li>
         <li>
-          <strong>Version Control:</strong> Git, GitHub, GitLab
+          <strong>Tools & Platforms:</strong> Git, GitHub, GitLab, Docker
+          (basic), Vercel, Netlify, NPM/Yarn
+        </li>
+        <li>
+          <strong>UI Libraries:</strong> Material UI, Ant Design, PrimeReact
         </li>
       </ul>
     </div>

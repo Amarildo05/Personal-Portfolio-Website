@@ -8,106 +8,66 @@ export default function Journey() {
         <i className="pi pi-hourglass" style={{ marginLeft: "0.5rem" }}></i>
       </h2>
       <p>
-        My journey into programming started with a deep curiosity about how the
-        digital world operates. I was fascinated by the ability to transform
-        abstract ideas into working code, and this fascination sparked my
-        interest in web development. I began by following simple online
-        tutorials, gradually expanding my knowledge and diving into more complex
-        resources and documentation. As I became more engaged in programming, I
-        realized the power of JavaScript and its ecosystem in building dynamic,
-        interactive web applications.
+        My journey into programming started with curiosity about how the digital
+        world operates. I was fascinated by turning abstract ideas into working
+        code, which sparked my interest in web development. I began with online
+        tutorials, various documentations, and gradually progressed to more
+        complex projects, discovering the power of JavaScript and its ecosystem
+        for building interactive web applications.
       </p>
+
       <p>
-        To formalize and deepen my knowledge, I enrolled in several online
-        courses, including:
+        To formalize my skills, I completed several online courses and studied
+        various technical documentations, including:
       </p>
       <ul>
         <li>- JavaScript Basics</li>
         <li>- Web Development Guide</li>
-        <li>- Next.js 15 & React - The Complete Guide (Udemy)</li>
-        <li>
-          - The Next.js 13 Bootcamp - The Complete Developer Guide (Udemy)
-        </li>
+        <li>- Ultimate React Course</li>
+        <li>- Next.js & React - The Complete Guide (Udemy)</li>
+        <li>- The Next.js 13 Bootcamp - Complete Developer Guide (Udemy)</li>
       </ul>
+
       <p>
-        These courses helped me build a strong foundation in JavaScript, web
-        development, and popular frameworks. The next step in my journey was the{" "}
+        These resources provided a strong foundation in JavaScript, web
+        development, and modern frameworks. <br />
+        <br />
+        The next step was the{" "}
         <strong>
-          JavaScript Bootcamp at Software Development Academy (SDA)
+          JavaScript Bootcamp at Software Development Academy (SDA) by Protik
         </strong>{" "}
-        by Protik in Tirana, Albania. This experience greatly enhanced my
-        practical skills in frontend development, while also providing a
-        foundational understanding of backend concepts and how they integrate
-        with the frontend. Here are the key elements I gained from the bootcamp:
+        in Tirana, Albania, which greatly enhanced my practical frontend skills
+        and introduced essential backend concepts.
       </p>
 
-      <h3>JavaScript Bootcamp at SDA by Protik</h3>
+      <h3>JavaScript Bootcamp at SDA</h3>
       <p>
-        The <strong>JavaScript from Scratch</strong> bootcamp was an intensive
-        280-hour program that provided a comprehensive understanding of both
-        frontend and backend web development. The curriculum was designed to
-        equip us with the skills required to develop modern web applications
-        from start to finish.
+        This intensive 280-hour program covered frontend and backend web
+        development, focusing on:
       </p>
-      <h3>General Scope of the Bootcamp:</h3>
-      <ol>
+      <ul>
+        <li>- Modern JavaScript (OOP, frameworks, and best practices)</li>
+        <li>- HTML, CSS, responsive design, and preprocessors like SASS</li>
         <li>
-          <strong>JavaScript Developer – Introduction</strong>
+          - Software engineering fundamentals, testing, and scalable application
+          design
         </li>
         <li>
-          <strong>JavaScript Programming Language</strong>
-          <ul>
-            <li>Structural programming</li>
-            <li>Object-Oriented Programming (OOP) in JavaScript</li>
-            <li>Key JavaScript frameworks and their applications</li>
-          </ul>
+          - Integration of frontend (React, Next.js) with backend (Node.js)
         </li>
-        <li>
-          <strong>HTML & CSS</strong>
-          <ul>
-            <li>Advanced HTML elements and structures</li>
-            <li>CSS preprocessors like SASS</li>
-            <li>Responsive Web Design (RWD) principles and techniques</li>
-          </ul>
-        </li>
-        <li>
-          <strong>Software Engineering</strong>
-          <ul>
-            <li>Testing methodologies</li>
-            <li>
-              Design patterns and industry best practices for building scalable
-              applications
-            </li>
-          </ul>
-        </li>
-        <li>
-          <strong>Frontend and Backend Technologies</strong>
-          <ul>
-            <li>Key differences between frontend and backend development</li>
-            <li>
-              Frameworks for both frontend (React, Next.js) and backend
-              (Node.js)
-            </li>
-            <li>CMS integration and development tools</li>
-          </ul>
-        </li>
-        <li>
-          <strong>Final Project</strong> <br />- The bootcamp culminated in a
-          hands-on final project where I applied all the skills I had learned to
-          develop a fully functional web application, showcasing my ability to
-          solve complex problems. <br />- You can explore the project,{" "}
-          <Link to="/single-project/1">CinemaVerse</Link>, for more details.
-        </li>
-      </ol>
+      </ul>
+
+      <p>
+        The bootcamp culminated in a hands-on final project where I developed a
+        fully functional web application,
+        <Link to="/single-project/1">CinemaVerse</Link>, applying all the skills
+        I had learned. This experience strengthened my problem-solving mindset
+        and prepared me to tackle complex challenges in real-world development.
+      </p>
+
       <p>
         <strong>Program Provider:</strong> Software Development Academy Albania
         (SDA) in collaboration with Protik
-      </p>
-      <p>
-        This bootcamp equipped me with not only the technical skills but also a
-        problem-solving mindset. It was an invaluable experience that shaped me
-        into a well-rounded developer, prepared to tackle complex challenges in
-        the tech industry.
       </p>
     </div>
   );
