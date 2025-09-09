@@ -104,6 +104,11 @@
     font-size: var(--size-6);
   }
 
+  .form-message {
+    margin-bottom: var(--size-1);
+    font-size: var(--size-3);
+  }
+
   .form-group label {
     font-size: var(--size-3);
   }
