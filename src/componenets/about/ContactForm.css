@@ -1,0 +1,122 @@
+/* Contact form container */
+.contact-form {
+  width: 90%;
+  max-width: 50rem;
+  margin: 2rem auto;
+  background-color: white;
+  padding: var(--size-1) var(--size-6);
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Heading */
+.contact-form h2 {
+  font-size: var(--size-8);
+  font-weight: bold;
+  color: var(--color-grey-800);
+  text-align: center;
+}
+
+/* Error and success messages */
+.form-message {
+  text-align: center;
+  margin-bottom: var(--size-3);
+  font-weight: 600;
+  font-size: var(--size-4);
+}
+
+.form-message.error {
+  color: #dc2626;
+}
+
+.form-message.success {
+  color: #16a34a;
+}
+
+/* Form groups */
+.form-group {
+  margin-bottom: var(--size-3);
+}
+
+.form-group label {
+  display: block;
+  font-size: var(--size-4);
+  font-weight: 500;
+  color: var(--color-grey-700);
+  margin-bottom: var(--size-1);
+  padding-left: var(--size-1);
+}
+
+/* Inputs and textareas */
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  border: 1px solid var(--color-grey-300);
+  border-radius: 6px;
+  padding: var(--size-2) var(--size-3);
+  font-size: var(--size-4);
+  line-height: 1.4;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: var(--color-grey-600);
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.3);
+}
+
+/* Textarea specific */
+.form-group textarea {
+  resize: none;
+  min-height: 6rem;
+}
+
+/* Submit button */
+.contact-form-btn {
+  display: block;
+  margin: var(--size-4) auto 0 auto;
+  margin-bottom: var(--size-3);
+  padding: var(--size-2) var(--size-5);
+  background-color: #1e3a8a;
+  color: #fff;
+  font-size: var(--size-4);
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.2s, transform 0.2s;
+}
+
+.contact-form-btn:hover {
+  background-color: #1d4ed8;
+  transform: scale(1.02);
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  .contact-form {
+    padding: var(--size-1) var(--size-4);
+    width: 93%;
+  }
+
+  .contact-form h2 {
+    font-size: var(--size-6);
+  }
+
+  .form-group label {
+    font-size: var(--size-3);
+  }
+
+  .form-group input,
+  .form-group textarea {
+    font-size: var(--size-3);
+    padding: var(--size-2);
+  }
+
+  .contact-form-btn {
+    font-size: var(--size-3);
+    padding: var(--size-2) var(--size-4);
+  }
+}
