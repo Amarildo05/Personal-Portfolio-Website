@@ -17,12 +17,16 @@ export default function ContactForm() {
 
   const validateForm = () => {
     const { name, email, phone, message } = formData;
+
+    // Name validation (first + last)
     const nameParts = name.trim().split(" ");
     if (nameParts.length < 2) {
       setError("Please enter first and last name.");
       setTimeout(() => setError(""), 5000);
       return false;
     }
+
+    // Email or Phone validation
     const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     const phonePattern = /^[0-9]{6,15}$/;
     const isEmailValid = emailPattern.test(email);
@@ -33,17 +37,21 @@ export default function ContactForm() {
       setTimeout(() => setError(""), 5000);
       return false;
     }
+
+    // Message validation
     if (message.trim().length === 0) {
       setError("Please write your message.");
       setTimeout(() => setError(""), 5000);
       return false;
     }
+
     setError("");
     return true;
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+
     if (!validateForm()) return;
 
     try {
@@ -52,7 +60,9 @@ export default function ContactForm() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),
       });
+
       if (!response.ok) throw new Error("Something went wrong.");
+
       const firstName = formData.name.trim().split(" ")[0];
       setSuccess(`Thank you, ${firstName}! Your message was sent.`);
       setFormData({ name: "", email: "", phone: "", message: "" });
@@ -68,8 +78,8 @@ export default function ContactForm() {
       <form onSubmit={handleSubmit} className="contact-form" noValidate>
         <h2 className="contact-form-title">Get in Touch</h2>
 
-        {error && <div className="form-error">{error}</div>}
-        {success && <div className="form-success">{success}</div>}
+        {error && <div className="form-message error">{error}</div>}
+        {success && <div className="form-message success">{success}</div>}
 
         <div className="form-group">
           <label htmlFor="name">
@@ -127,6 +137,10 @@ export default function ContactForm() {
 
         <button type="submit" className="contact-form-btn">
           Send Message
+          <i
+            className="pi pi-send"
+            style={{ marginLeft: "0.4rem", verticalAlign: "text-bottom" }}
+          />
         </button>
       </form>
     </section>
