@@ -12,8 +12,14 @@ export default function ProjectCards({ projects }) {
             <div className="card-image">
               <img src={project.photo} alt={project.title} />
             </div>
+
             <div className="content">
-              <h3>{project.title}</h3>
+              <div className="card-header">
+                <h3>{project.title}</h3>
+
+                {project.isDemo && <span className="demo-badge">DEMO</span>}
+              </div>
+
               <p>{project.description}</p>
               <Technologies technologies={project.technologies} />
             </div>
@@ -33,6 +39,7 @@ ProjectCards.propTypes = {
       description: PropTypes.string.isRequired,
       photo: PropTypes.string.isRequired,
       isFeatured: PropTypes.bool.isRequired,
+      isDemo: PropTypes.bool.isRequired,
       technologies: PropTypes.arrayOf(PropTypes.string).isRequired,
     })
   ).isRequired,

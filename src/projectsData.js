@@ -6,6 +6,7 @@ const projects = [
       "CinemaVerse is your all-in-one movie resource, providing real-time access to the latest movie information. Explore top-rated films, discover upcoming releases, watch trailers, and stay updated on everything happening in the world of cinema.",
     photo: "/CinemaVerse/CinemaVerse.png",
     isFeatured: true,
+    isDemo: false,
     detailedDescription:
       "Welcome to CinemaVerse, your all-in-one destination for everything related to movies.\n" +
       "Whether you're looking for the latest top-rated films, upcoming releases, or exclusive trailers, we provide real-time access to all the information you need. Our platform keeps you updated on the newest trends, box office hits, and hidden gems from the world of cinema.\n" +
@@ -41,6 +42,7 @@ const projects = [
       "This project involved creating a custom landing page designed for Google Ads campaigns. The landing page serves as an entry point, efficiently redirecting users to the client's main website, optimizing user engagement and conversion.",
     photo: "/LandingPageProject/LandingPage2.png",
     isFeatured: false,
+    isDemo: false,
     detailedDescription:
       "This project involved creating a custom landing page designed specifically for Google Ads campaigns. The goal was to develop an engaging and user-friendly page that would capture the attention of visitors and redirect them to the client’s main website. The landing page was built to be fully responsive, ensuring a smooth experience across all devices, from smartphones to desktops.\n" +
       "It was optimized for speed and performance to minimize load times and reduce bounce rates.\n" +
@@ -76,6 +78,7 @@ const projects = [
       "Bert Electric is a professional website created to represent an electrical and security systems. It highlights the company’s identity, services, and products through a clean and modern layout. The site also offers clients an easy way to get in touch and learn more about the business.",
     photo: "/BertElectric/BertElectric-Logo.png",
     isFeatured: true,
+    isDemo: true,
     detailedDescription:
       "Bert Electric is a modern business presentation website built to showcase the identity, services, and product offerings of an electrical and security systems company. Designed with both clarity and professionalism in mind, the site provides visitors with a clear understanding of who the company is, what they specialize in, and how clients can get in touch. From service descriptions to product displays and contact options, Bert Electric serves as a complete online presence for the business—helping build trust, improve visibility, and offer a direct communication channel for potential clients. (This is not the final version of the app — it’s still under development.)",
     images: [
@@ -106,11 +109,43 @@ const projects = [
   },
   {
     id: 4,
+    title: "Money Shop Exchange",
+    description:
+      "A fast and secure currency exchange management app that allows shop owners to update daily buy and sell rates in real time, ensuring accurate values and instant synchronization across all in-store display screens throughout the shop.",
+    photo: "/MoneyShopExchange/Money-Shop-logo.png",
+    isFeatured: true,
+    isDemo: false,
+    detailedDescription:
+      "Money Shop Exchange is a simple and efficient application built for a local currency exchange business that needed a fast way to manage daily exchange rates. The app allows the shop owner to enter and update buy and sell values for multiple currencies each day when the shop opens, ensuring that all displayed rates remain accurate and up to date.\n" +
+      "A secure management panel is included, where rate updates are protected by a passcode so only authorized access is allowed. Once the values are saved, they are instantly reflected on all screens inside the shop, providing real-time synchronization. The focus of this project was speed, reliability, and ease of use, delivering a practical solution without unnecessary complexity.",
+
+    images: [
+      "/MoneyShopExchange/Money-Shop-1.png",
+      "/MoneyShopExchange/Money-Shop-2.png",
+      "/MoneyShopExchange/Money-Shop-3.png",
+    ],
+    gitHubRepo: null,
+    deploymentLink: null,
+    technologies: [
+      "/Technologies/React-logo.svg",
+      "/Technologies/Vitejs-logo.svg",
+      "/Technologies/Javascript-logo.svg",
+      "/Technologies/Vercel-logo.svg",
+      "/Technologies/Upstash-logo.webp",
+      "/Technologies/Tailwind-logo.svg",
+    ],
+    technologiesDescription:
+      "Money Shop Exchange is built using React with Vite to ensure fast development and excellent performance, while Tailwind CSS is used for clean and efficient styling. The application is deployed on Vercel, providing reliable hosting and quick access for in-store screens.\n" +
+      "For data storage and backend functionality, Vercel KV is used as a key-value store powered by Upstash Redis. This approach allowed secure storage of exchange rates and the admin passcode without building a full traditional backend, resulting in a lightweight, cost-effective, and easy-to-maintain solution.",
+  },
+  {
+    id: 5,
     title: "Valorant Playbook",
     description:
       "Valorant Playbook is a simple guide designed to help players navigate the world of Valorant. Whether you're new to the game or just curious, you can explore detailed information about agents, weapons, and maps to improve your gameplay.",
     photo: "/ValorantPlaybook/ValorantPlaybook.png",
     isFeatured: false,
+    isDemo: true,
     detailedDescription:
       "Valorant Playbook is a simple guide designed to help both new and experienced players navigate the world of Valorant. Whether you're just starting out or curious about the game, this resource provides essential information about the different agents, weapons, and maps. You can learn about each agent, discover the available weapons, and familiarize yourself with the various maps to improve your strategy. Perfect for those looking to enhance their gameplay, the Valorant Playbook serves as a valuable tool for gathering key insights and getting a better understanding of the game. \n" +
       "(This is a demo project and may receive updates in the future.)",
@@ -140,12 +175,13 @@ const projects = [
       "(Demo version — subject to future improvements.)",
   },
   {
-    id: 5,
+    id: 6,
     title: "Gym Members (FullStack)",
     description:
       "Gym Members Dashboard is a simple tool designed to help manage gym memberships with ease. Whether you're tracking new signups or keeping tabs on active and inactive members, this dashboard makes it easy to organize member details, registration dates, and payment status in one place.",
     photo: "/GymDashboardApp/GymDashboard.png",
-    isFeatured: true,
+    isFeatured: false,
+    isDemo: true,
     detailedDescription:
       "Gym Members Dashboard is a user-friendly application built to simplify gym membership management. With this tool, you can easily create new members by entering their personal details, register the date they joined, and keep an updated record of their membership status. The dashboard clearly indicates whether a member is currently active or inactive based on their payment status, helping gym owners or staff stay organized and on top of renewals. It’s a straightforward solution to streamline day-to-day operations and maintain an efficient workflow in any gym environment.\n" +
       "(This is a demo project and may receive updates in the future.)",

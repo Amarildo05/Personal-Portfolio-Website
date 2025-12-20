@@ -36,13 +36,14 @@ export default function Experience() {
 
       <h3>Web Applications for Small Businesses</h3>
       <p>
-        Designed and developed professional websites for local businesses, such
-        as<Link to="/single-project/3">BertElectric</Link>, using{" "}
+        Designed and developed professional web applications for local
+        businesses, such as <Link to="/single-project/3">Bert Electric</Link>{" "}
+        and <Link to="/single-project/4">Money Shop Exchange</Link>, using{" "}
         <strong>React</strong>, <strong>Vite</strong>,{" "}
-        <strong>Tailwind CSS</strong>, and modern UI libraries. These projects
-        helped me understand client needs and deliver practical solutions. I am
-        actively seeking to create more tailored solutions for small businesses
-        to expand my portfolio.
+        <strong>Tailwind CSS</strong>, and other modern libraries. These
+        projects helped me understand client needs and deliver practical,
+        real-world solutions. I am actively seeking to create more tailored
+        applications for small businesses to expand my portfolio.
       </p>
     </div>
   );
