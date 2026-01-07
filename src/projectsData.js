@@ -37,6 +37,108 @@ const projects = [
   },
   {
     id: 2,
+    title: "Bert Electric",
+    description:
+      "Bert Electric is a professional website created to represent an electrical and security systems. It highlights the company’s identity, services, and products through a clean and modern layout. The site also offers clients an easy way to get in touch and learn more about the business.",
+    photo: "/BertElectric/BertElectric-Logo.png",
+    isFeatured: false,
+    isDemo: true,
+    detailedDescription:
+      "Bert Electric is a modern business presentation website built to showcase the identity, services, and product offerings of an electrical and security systems company. Designed with both clarity and professionalism in mind, the site provides visitors with a clear understanding of who the company is, what they specialize in, and how clients can get in touch. From service descriptions to product displays and contact options, Bert Electric serves as a complete online presence for the business—helping build trust, improve visibility, and offer a direct communication channel for potential clients. (This is not the final version of the app — it’s still under development.)",
+    images: [
+      "/BertElectric/Bert-Electric.png",
+      "/BertElectric/Bert-Electric2.png",
+      "/BertElectric/Bert-Electric3.png",
+      "/BertElectric/Bert-Electric4.png",
+      "/BertElectric/Bert-Electric5.png",
+      "/BertElectric/Bert-Electric6.png",
+      "/BertElectric/Bert-Electric7.png",
+      "/BertElectric/Bert-Electric8.png",
+      "/BertElectric/Bert-Electric9.png",
+      "/BertElectric/Bert-Electric10.png",
+      "/BertElectric/Bert-Electric11.png",
+      "/BertElectric/Bert-Electric12.png",
+    ],
+    gitHubRepo: null,
+    deploymentLink: "https://bert-electric.vercel.app",
+    technologies: [
+      "/Technologies/React-logo.svg",
+      "/Technologies/Vitejs-logo.svg",
+      "/Technologies/Javascript-logo.svg",
+      "/Technologies/Tailwind-logo.svg",
+      "/Technologies/Primereact-logo.png",
+    ],
+    technologiesDescription:
+      "Bert Electric is built using React and Vite to ensure a scalable, and maintainable foundation—ideal for future feature expansions. The project was developed from scratch to match the client's specific vision and needs. Styling is handled with Tailwind CSS for a clean and responsive layout, combined with PrimeReact components and PrimeIcons for a modern UI experience. The codebase is well-organized, with clearly separated and readable files to maintain structure and ease of collaboration. (This is not the final version of the app — it’s still under development.)",
+  },
+  {
+    id: 3,
+    title: "Luca's Home Improvement",
+    description:
+      "Lucas Home Improvement is a professional application built for a home improvement business. It presents the company’s services, completed projects, and overall expertise through a clean and trusted interface, helping clients understand the business and feel confident reaching out.",
+    photo: "/LucasHomeImprovement/LucasHomeImprovement.png",
+    isFeatured: true,
+    isDemo: false,
+    detailedDescription:
+      "Lucas Home Improvement is a modern web application built for a home reconstruction and renovation business based in Florida, USA. The platform works as both a marketing and management tool, allowing clients to explore services, view completed projects, and better understand the company’s work and experience. Alongside the public website, the project includes an admin panel where the business owner can securely log in, create and manage project posts, and update content that appears in real time on the frontend. The goal of the application is to strengthen the company’s online presence and present renovation projects in a clear and professional way.",
+    images: [
+      "/LucasHomeImprovement/Lucas-home-improvement1.png",
+      "/LucasHomeImprovement/Lucas-home-improvement2.png",
+      "/LucasHomeImprovement/Lucas-home-improvement3.png",
+      "/LucasHomeImprovement/Lucas-home-improvement4.png",
+      "/LucasHomeImprovement/Lucas-home-improvement5.png",
+      "/LucasHomeImprovement/Lucas-home-improvement6.png",
+      "/LucasHomeImprovement/Lucas-home-improvement7.png",
+      "/LucasHomeImprovement/Lucas-home-improvement8.png",
+      "/LucasHomeImprovement/Lucas-home-improvement9.png",
+      "/LucasHomeImprovement/Lucas-home-improvement10.png",
+      "/LucasHomeImprovement/Lucas-home-improvement11.png",
+    ],
+    gitHubRepo: null,
+    deploymentLink: "https://lucas-home-improvement.vercel.app/",
+    technologies: [
+      "/Technologies/React-logo.svg",
+      "/Technologies/Vitejs-logo.svg",
+      "/Technologies/Javascript-logo.svg",
+      "/Technologies/Tailwind-logo.svg",
+      "/Technologies/Supabase-icon.svg",
+    ],
+    technologiesDescription:
+      "Lucas Home Improvement is built with React and Vite for a fast and maintainable frontend. JavaScript handles the core application logic, while Tailwind CSS is used for responsive and modern styling. PrimeReact, PrimeIcons, and PrimeFlex are included to create a consistent and user-friendly interface. Supabase is used as the backend, providing authentication and database features for the admin panel and real-time content updates. The project is organized with clean, readable code, making it easy to maintain and expand.",
+  },
+  {
+    id: 4,
+    title: "Money Shop Exchange",
+    description:
+      "A fast and secure currency exchange management app that allows shop owners to update daily buy and sell rates in real time, ensuring accurate values and instant synchronization across all in-store display screens throughout the shop.",
+    photo: "/MoneyShopExchange/Money-Shop-logo.png",
+    isFeatured: true,
+    isDemo: false,
+    detailedDescription:
+      "Money Shop Exchange is a simple and efficient application built for a local currency exchange business that needed a fast way to manage daily exchange rates. The app allows the shop owner to enter and update buy and sell values for multiple currencies each day when the shop opens, ensuring that all displayed rates remain accurate and up to date.\n" +
+      "A secure management panel is included, where rate updates are protected by a passcode so only authorized access is allowed. Once the values are saved, they are instantly reflected on all screens inside the shop, providing real-time synchronization. The focus of this project was speed, reliability, and ease of use, delivering a practical solution without unnecessary complexity.",
+
+    images: [
+      "/MoneyShopExchange/Money-Shop-1.png",
+      "/MoneyShopExchange/Money-Shop-2.png",
+      "/MoneyShopExchange/Money-Shop-3.png",
+    ],
+    gitHubRepo: null,
+    deploymentLink: null,
+    technologies: [
+      "/Technologies/React-logo.svg",
+      "/Technologies/Vitejs-logo.svg",
+      "/Technologies/Javascript-logo.svg",
+      "/Technologies/Vercel-logo.svg",
+      "/Technologies/Upstash-logo.webp",
+      "/Technologies/Tailwind-logo.svg",
+    ],
+    technologiesDescription:
+      "Money Shop Exchange is built using React with Vite to ensure fast development and excellent performance, while Tailwind CSS is used for clean and efficient styling. The application is deployed on Vercel, providing reliable hosting and quick access for in-store screens.\n" +
+      "For data storage and backend functionality, Vercel KV is used as a key-value store powered by Upstash Redis. This approach allowed secure storage of exchange rates and the admin passcode without building a full traditional backend, resulting in a lightweight, cost-effective, and easy-to-maintain solution.",
+  },
+  {
+    id: 5,
     title: "Landing Page Project",
     description:
       "This project involved creating a custom landing page designed for Google Ads campaigns. The landing page serves as an entry point, efficiently redirecting users to the client's main website, optimizing user engagement and conversion.",
@@ -72,74 +174,41 @@ const projects = [
       "This landing page was developed using HTML5, CSS, and Bootstrap to ensure fast performance and responsiveness. As the project required optimization for Google Ads, there was no need for a complex framework. Instead, i used Bootstrap components for a responsive design and enhanced it with custom styling through plain CSS. To address some issues with specific Bootstrap components, i implemented Popper.js for better functionality. I also incorporated a bit of JavaScript to handle some interactive elements on the page. For deployment, i gained new experience by using FileZilla to upload the files to the client's server. Despite a tight deadline of just a day and a half, i dedicated my effort to successfully completing the project on time.",
   },
   {
-    id: 3,
-    title: "Bert Electric",
+    id: 6,
+    title: "Gym Members (FullStack)",
     description:
-      "Bert Electric is a professional website created to represent an electrical and security systems. It highlights the company’s identity, services, and products through a clean and modern layout. The site also offers clients an easy way to get in touch and learn more about the business.",
-    photo: "/BertElectric/BertElectric-Logo.png",
-    isFeatured: true,
+      "Gym Members Dashboard is a simple tool designed to help manage gym memberships with ease. Whether you're tracking new signups or keeping tabs on active and inactive members, this dashboard makes it easy to organize member details, registration dates, and payment status in one place.",
+    photo: "/GymDashboardApp/GymDashboard.png",
+    isFeatured: false,
     isDemo: true,
     detailedDescription:
-      "Bert Electric is a modern business presentation website built to showcase the identity, services, and product offerings of an electrical and security systems company. Designed with both clarity and professionalism in mind, the site provides visitors with a clear understanding of who the company is, what they specialize in, and how clients can get in touch. From service descriptions to product displays and contact options, Bert Electric serves as a complete online presence for the business—helping build trust, improve visibility, and offer a direct communication channel for potential clients. (This is not the final version of the app — it’s still under development.)",
+      "Gym Members Dashboard is a user-friendly application built to simplify gym membership management. With this tool, you can easily create new members by entering their personal details, register the date they joined, and keep an updated record of their membership status. The dashboard clearly indicates whether a member is currently active or inactive based on their payment status, helping gym owners or staff stay organized and on top of renewals. It’s a straightforward solution to streamline day-to-day operations and maintain an efficient workflow in any gym environment.\n" +
+      "(This is a demo project and may receive updates in the future.)",
     images: [
-      "/BertElectric/Bert-Electric.png",
-      "/BertElectric/Bert-Electric2.png",
-      "/BertElectric/Bert-Electric3.png",
-      "/BertElectric/Bert-Electric4.png",
-      "/BertElectric/Bert-Electric5.png",
-      "/BertElectric/Bert-Electric6.png",
-      "/BertElectric/Bert-Electric7.png",
-      "/BertElectric/Bert-Electric8.png",
-      "/BertElectric/Bert-Electric9.png",
-      "/BertElectric/Bert-Electric10.png",
-      "/BertElectric/Bert-Electric11.png",
-      "/BertElectric/Bert-Electric12.png",
+      "/GymDashboardApp/Gym-dashboard-app.png",
+      "/GymDashboardApp/Gym-dashboard-app2.png",
+      "/GymDashboardApp/Gym-dashboard-app3.png",
+      "/GymDashboardApp/Gym-dashboard-app4.png",
+      "/GymDashboardApp/Gym-dashboard-app5.png",
+      "/GymDashboardApp/Gym-dashboard-app6.png",
+      "/GymDashboardApp/Gym-dashboard-app7.png",
     ],
-    gitHubRepo: null,
-    deploymentLink: "https://bert-electric.vercel.app",
+    gitHubRepo: "https://github.com/Amarildo05/Gym-Dashboard-App",
+    deploymentLink: "https://gym-dashboard-app-kappa.vercel.app",
     technologies: [
       "/Technologies/React-logo.svg",
-      "/Technologies/Vitejs-logo.svg",
       "/Technologies/Javascript-logo.svg",
       "/Technologies/Tailwind-logo.svg",
-      "/Technologies/Primereact-logo.png",
+      "/Technologies/Nodejs-logo.svg",
+      "/Technologies/Express-icon.svg",
+      "/Technologies/Mongodb-icon.svg",
     ],
     technologiesDescription:
-      "Bert Electric is built using React and Vite to ensure a scalable, and maintainable foundation—ideal for future feature expansions. The project was developed from scratch to match the client's specific vision and needs. Styling is handled with Tailwind CSS for a clean and responsive layout, combined with PrimeReact components and PrimeIcons for a modern UI experience. The codebase is well-organized, with clearly separated and readable files to maintain structure and ease of collaboration. (This is not the final version of the app — it’s still under development.)",
+      "Gym Members Dashboard is built using React and Vite for a smooth development experience, with Tailwind CSS for fast and efficient styling. The main goal of this project was to showcase full-stack development and CRUD functionality. The frontend is deployed on Vercel and communicates seamlessly with a backend hosted on Render. The backend is powered by Node.js and Express.js, while MongoDB is used as the database to store and manage member data.\n" +
+      " (Demo version — subject to future improvements.)",
   },
   {
-    id: 4,
-    title: "Money Shop Exchange",
-    description:
-      "A fast and secure currency exchange management app that allows shop owners to update daily buy and sell rates in real time, ensuring accurate values and instant synchronization across all in-store display screens throughout the shop.",
-    photo: "/MoneyShopExchange/Money-Shop-logo.png",
-    isFeatured: true,
-    isDemo: false,
-    detailedDescription:
-      "Money Shop Exchange is a simple and efficient application built for a local currency exchange business that needed a fast way to manage daily exchange rates. The app allows the shop owner to enter and update buy and sell values for multiple currencies each day when the shop opens, ensuring that all displayed rates remain accurate and up to date.\n" +
-      "A secure management panel is included, where rate updates are protected by a passcode so only authorized access is allowed. Once the values are saved, they are instantly reflected on all screens inside the shop, providing real-time synchronization. The focus of this project was speed, reliability, and ease of use, delivering a practical solution without unnecessary complexity.",
-
-    images: [
-      "/MoneyShopExchange/Money-Shop-1.png",
-      "/MoneyShopExchange/Money-Shop-2.png",
-      "/MoneyShopExchange/Money-Shop-3.png",
-    ],
-    gitHubRepo: null,
-    deploymentLink: null,
-    technologies: [
-      "/Technologies/React-logo.svg",
-      "/Technologies/Vitejs-logo.svg",
-      "/Technologies/Javascript-logo.svg",
-      "/Technologies/Vercel-logo.svg",
-      "/Technologies/Upstash-logo.webp",
-      "/Technologies/Tailwind-logo.svg",
-    ],
-    technologiesDescription:
-      "Money Shop Exchange is built using React with Vite to ensure fast development and excellent performance, while Tailwind CSS is used for clean and efficient styling. The application is deployed on Vercel, providing reliable hosting and quick access for in-store screens.\n" +
-      "For data storage and backend functionality, Vercel KV is used as a key-value store powered by Upstash Redis. This approach allowed secure storage of exchange rates and the admin passcode without building a full traditional backend, resulting in a lightweight, cost-effective, and easy-to-maintain solution.",
-  },
-  {
-    id: 5,
+    id: 7,
     title: "Valorant Playbook",
     description:
       "Valorant Playbook is a simple guide designed to help players navigate the world of Valorant. Whether you're new to the game or just curious, you can explore detailed information about agents, weapons, and maps to improve your gameplay.",
@@ -173,40 +242,6 @@ const projects = [
     technologiesDescription:
       "Valorant Playbook is built with React, Vite, TypeScript, and plain CSS for the design. A key feature of the project is the custom carousel, which I decided to build from scratch using TypeScript. This carousel is the main component, where each slide represents a single agent, weapon, or map with its own content and data.\n" +
       "(Demo version — subject to future improvements.)",
-  },
-  {
-    id: 6,
-    title: "Gym Members (FullStack)",
-    description:
-      "Gym Members Dashboard is a simple tool designed to help manage gym memberships with ease. Whether you're tracking new signups or keeping tabs on active and inactive members, this dashboard makes it easy to organize member details, registration dates, and payment status in one place.",
-    photo: "/GymDashboardApp/GymDashboard.png",
-    isFeatured: false,
-    isDemo: true,
-    detailedDescription:
-      "Gym Members Dashboard is a user-friendly application built to simplify gym membership management. With this tool, you can easily create new members by entering their personal details, register the date they joined, and keep an updated record of their membership status. The dashboard clearly indicates whether a member is currently active or inactive based on their payment status, helping gym owners or staff stay organized and on top of renewals. It’s a straightforward solution to streamline day-to-day operations and maintain an efficient workflow in any gym environment.\n" +
-      "(This is a demo project and may receive updates in the future.)",
-    images: [
-      "/GymDashboardApp/Gym-dashboard-app.png",
-      "/GymDashboardApp/Gym-dashboard-app2.png",
-      "/GymDashboardApp/Gym-dashboard-app3.png",
-      "/GymDashboardApp/Gym-dashboard-app4.png",
-      "/GymDashboardApp/Gym-dashboard-app5.png",
-      "/GymDashboardApp/Gym-dashboard-app6.png",
-      "/GymDashboardApp/Gym-dashboard-app7.png",
-    ],
-    gitHubRepo: "https://github.com/Amarildo05/Gym-Dashboard-App",
-    deploymentLink: "https://gym-dashboard-app-kappa.vercel.app",
-    technologies: [
-      "/Technologies/React-logo.svg",
-      "/Technologies/Javascript-logo.svg",
-      "/Technologies/Tailwind-logo.svg",
-      "/Technologies/Nodejs-logo.svg",
-      "/Technologies/Express-icon.svg",
-      "/Technologies/Mongodb-icon.svg",
-    ],
-    technologiesDescription:
-      "Gym Members Dashboard is built using React and Vite for a smooth development experience, with Tailwind CSS for fast and efficient styling. The main goal of this project was to showcase full-stack development and CRUD functionality. The frontend is deployed on Vercel and communicates seamlessly with a backend hosted on Render. The backend is powered by Node.js and Express.js, while MongoDB is used as the database to store and manage member data.\n" +
-      " (Demo version — subject to future improvements.)",
   },
 ];
 
