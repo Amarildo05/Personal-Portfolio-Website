@@ -31,13 +31,13 @@ export default function Experience() {
         <strong>CSS</strong>, <strong>Bootstrap</strong>, and{" "}
         <strong>JavaScript</strong>. Designed for fast load times and ad
         performance. <br />- You can explore the project,
-        <Link to="/single-project/2">LandingPage</Link>, for more details.
+        <Link to="/single-project/5">LandingPage</Link>, for more details.
       </p>
 
       <h3>Web Applications for Small Businesses</h3>
       <p>
         Designed and developed professional web applications for local
-        businesses, such as <Link to="/single-project/3">Bert Electric</Link>{" "}
+        businesses, such as <Link to="/single-project/2">Bert Electric</Link>{" "}
         and <Link to="/single-project/4">Money Shop Exchange</Link>, using{" "}
         <strong>React</strong>, <strong>Vite</strong>,{" "}
         <strong>Tailwind CSS</strong>, and other modern libraries. These
