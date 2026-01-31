@@ -4,13 +4,22 @@ import "./Navbar.css";
 
 export default function Navbar() {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [isDesktop, setIsDesktop] = useState(window.innerWidth > 768);
 
   // Toggle mobile menu
   const toggleMobileMenu = () => {
-    setMobileMenuOpen(!isMobileMenuOpen);
+    setMobileMenuOpen((prev) => !prev);
   };
 
-  // Close mobile menu when clicking outside
+  useEffect(() => {
+    const handleResize = () => {
+      setIsDesktop(window.innerWidth > 768);
+    };
+
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
   useEffect(() => {
     const handleClickOutside = (event) => {
       const menu = document.querySelector(".header ul");
@@ -18,6 +27,7 @@ export default function Navbar() {
 
       // Close the menu if the click is outside the menu or icon
       if (
+        isMobileMenuOpen &&
         menu &&
         !menu.contains(event.target) &&
         menuIcon &&
@@ -29,12 +39,8 @@ export default function Navbar() {
 
     // Add the event listener when the component is mounted
     document.addEventListener("click", handleClickOutside);
-
-    // Clean up the event listener on component unmount
-    return () => {
-      document.removeEventListener("click", handleClickOutside);
-    };
-  }, []);
+    return () => document.removeEventListener("click", handleClickOutside);
+  }, [isMobileMenuOpen]);
 
   // Close menu when any link is clicked
   const closeMenuOnLinkClick = () => {
@@ -46,14 +52,20 @@ export default function Navbar() {
       <NavLink to="/">
         <img className="nav-logo slide-fade-in" src="/Logo.png" alt="Logo" />
       </NavLink>
+
       <div
         className="mobile-menu-icon slide-fade-in-reverse"
         onClick={toggleMobileMenu}
       >
-        <span className="menu-icon">&#9776;</span> {/* Hamburger icon */}
+        <span className="menu-icon">&#9776;</span>
       </div>
+
       <nav>
-        <ul className={`${isMobileMenuOpen ? "open" : ""} pop-fade-in`}>
+        <ul
+          className={`${isMobileMenuOpen ? "open" : ""} ${
+            isDesktop ? "pop-fade-in" : ""
+          }`}
+        >
           <li>
             <NavLink to="/" className="nav-link" onClick={closeMenuOnLinkClick}>
               Home

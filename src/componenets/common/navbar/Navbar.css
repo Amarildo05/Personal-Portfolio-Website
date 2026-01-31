@@ -6,6 +6,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 0 10%;
+  position: relative;
 }
 
 .header .nav-logo {
@@ -27,6 +28,7 @@
 .header .nav-link {
   color: var(--color-grey-200);
   font-size: var(--size-5);
+  text-decoration: none;
 }
 
 .header .nav-link:hover,
@@ -37,7 +39,7 @@
 
 /* Mobile menu icon */
 .mobile-menu-icon {
-  display: none; /* Hidden by default */
+  display: none;
   cursor: pointer;
   font-size: 30px;
   color: var(--color-grey-200);
@@ -49,7 +51,7 @@
 /* Responsive Styles */
 @media (max-width: 768px) {
   .mobile-menu-icon {
-    display: block; /* Show hamburger icon on small screens */
+    display: block;
   }
 
   .header .nav-logo {
@@ -57,28 +59,30 @@
   }
 
   .header ul {
-    display: none; /* Hidden by default */
+    display: none;
     flex-direction: column;
     position: absolute;
     top: 6rem;
-    right: 0;
-    border-bottom-left-radius: var(--size-2);
+    left: 0;
+    width: 100%;
     background-color: var(--color-grey-900);
-    padding: 1rem;
-    width: 200px;
+    padding: 0.75rem 1.25rem;
     z-index: 9999;
-    align-items: center;
+    align-items: flex-start;
   }
 
   .header ul.open {
-    display: flex; /* Show menu when open */
+    display: flex;
   }
 
   .header li {
-    margin: 1rem 0;
+    margin: 0.6rem 0; /* ⬅️ slightly more space between items */
+    width: 100%;
   }
 
   .header .nav-link {
     font-size: var(--size-4);
+    width: 100%;
+    padding: 0.45rem 0;
   }
 }
