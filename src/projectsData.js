@@ -152,7 +152,7 @@ const projects = [
       "\n" +
       "* Some of the project screenshots have been blurred for client security purposes.",
     images: [
-      "/LandingPageProject/Landing-Page-Project.png",
+      "/LandingPageProject/Landing-Page-Project1.png",
       "/LandingPageProject/Landing-Page-Project2.png",
       "/LandingPageProject/Landing-Page-Project3.png",
       "/LandingPageProject/Landing-Page-Project4.png",

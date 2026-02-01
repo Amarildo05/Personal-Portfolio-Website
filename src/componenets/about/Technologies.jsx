@@ -16,7 +16,7 @@ export default function Technologies() {
         </li>
         <li>
           <strong>Backend & Databases:</strong> Node.js (basic knowledge),
-          Express.js (basic knowledge), MongoDB, Firebase.
+          Express.js (basic knowledge), MongoDB, Firebase, Supabase
         </li>
         <li>
           <strong>Testing & Quality:</strong> Jest, React Testing Library

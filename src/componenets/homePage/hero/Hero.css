@@ -34,7 +34,7 @@
   font-size: var(--size-6);
   color: var(--color-grey-200);
   width: 90%;
-  max-width: 56rem;
+  max-width: 65rem;
   margin: auto;
   padding-bottom: var(--size-4);
 }

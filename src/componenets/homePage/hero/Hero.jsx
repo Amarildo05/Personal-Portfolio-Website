@@ -14,9 +14,10 @@ export default function Hero() {
       </div>
       <h1 className="slide-fade-in-reverse">Hi, I&apos;m Amarildo Kola</h1>
       <p className="slide-fade-in">
-        A passionate JavaScript Developer. I focus on building interactive web
-        applications using JavaScript, TypeScript, React, and Next.js, and
-        i&apos;m excited to continue growing in the world of programming.
+        A Software Developer focused on building modern web applications using
+        JavaScript, TypeScript, React, and Next.js. I’m committed to continuous
+        learning and professional growth, exploring new technologies and
+        delivering clean, efficient, and user-friendly solutions.
       </p>
       <Link to="/about">
         <button className="hero-btn pop-fade-in">

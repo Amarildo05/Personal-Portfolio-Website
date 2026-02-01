@@ -13,7 +13,7 @@ export default function Experience() {
         are some key examples:
       </p>
 
-      <h3>E-Commerce Project</h3>
+      <h3>E-Commerce Project | Da&Co · Contract</h3>
       <p>
         Played a key role in a complex e-commerce platform built with{" "}
         <strong>Next.js</strong>, <strong>TypeScript</strong>,{" "}
@@ -37,8 +37,9 @@ export default function Experience() {
       <h3>Web Applications for Small Businesses</h3>
       <p>
         Designed and developed professional web applications for local
-        businesses, such as <Link to="/single-project/2">Bert Electric</Link>{" "}
-        and <Link to="/single-project/4">Money Shop Exchange</Link>, using{" "}
+        businesses, such as <Link to="/single-project/2">Bert Electric</Link>,{" "}
+        <Link to="/single-project/3">Lucas Home Improvement</Link>, and{" "}
+        <Link to="/single-project/4">Money Shop Exchange</Link>, using{" "}
         <strong>React</strong>, <strong>Vite</strong>,{" "}
         <strong>Tailwind CSS</strong>, and other modern libraries. These
         projects helped me understand client needs and deliver practical,
